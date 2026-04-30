@@ -1,3 +1,5 @@
+![image](https://github.com/cpla2sol-gitt/labor-portal/issues/1#issue-4358388989)
+
 # 노무 서식 포털 — HR Document Portal
 
 > 채용부터 퇴직까지, 노무관리에 필요한 서식을 온라인으로 작성하고 바로 PDF로 출력하는 웹 포털입니다.  
