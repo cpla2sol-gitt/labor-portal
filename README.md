@@ -1,4 +1,4 @@
-![image](https://github.com/cpla2sol-gitt/labor-portal/issues/1#issue-4358388989)
+![image]<img width="3840" height="1920" alt="Image" src="https://github.com/user-attachments/assets/94a4c543-5dbc-4f15-841a-a1a6f41af25d" />
 
 # 노무 서식 포털 — HR Document Portal
 
