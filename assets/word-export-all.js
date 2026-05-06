@@ -87,7 +87,7 @@ function exportWordAll() {
   docx.Packer.toBlob(doc).then(function(blob) {
     var today = new Date();
     var dateStr = today.getFullYear() + ('0'+(today.getMonth()+1)).slice(-2) + ('0'+today.getDate()).slice(-2);
-    var fileName = '노무서식_전체_' + dateStr + '.docx';
+    var fileName = 'Word 전체 출력' + dateStr + '.docx';
 
     if (typeof saveAs !== 'undefined') {
       saveAs(blob, fileName);
