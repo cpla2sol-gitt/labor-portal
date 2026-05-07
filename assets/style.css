@@ -472,7 +472,7 @@ header {
 }
 
 /* 각 직급 셀 */
-.ap-box { width: 55pt; vertical-align: top; } /* 결재 칸 너비 — 숫자로 조절 */
+.ap-box { width: 50pt; vertical-align: top; } /* 결재 칸 너비 — 숫자로 조절 */
 .ap-box-name {
   font-size: 10pt;  /* 직급명 글자 크기 */
   padding: 3px 0;
