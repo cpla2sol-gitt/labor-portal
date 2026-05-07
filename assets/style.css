@@ -852,7 +852,7 @@ textarea.di {
   /* A4 용지 정확한 크기 설정 */
   @page {
     size: A4 portrait;
-    margin: 20mm 22mm; /* 상하 20mm, 좌우 22mm 여백 */
+    margin: 0mm; /* 상하 좌우 여백 */
   }
 
   /* 색상 강제 출력 (배경색·아이콘 등 인쇄 보장) */
@@ -899,10 +899,10 @@ textarea.di {
 
   /* A4 용지 — 화면용 스타일 제거, 인쇄 크기에 맞게 조정 */
   .a4-paper {
-    width: 100%;
+    width: 210mm;
     min-height: calc(297mm - 40mm);
     box-shadow: none;
-    padding: 0;
+    padding: var(--a4-pad-v) var(--a4-pad-h);
     margin: 0;
     border: none;
     display: flex;
