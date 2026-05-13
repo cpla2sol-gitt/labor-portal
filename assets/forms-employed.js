@@ -9,8 +9,6 @@ employed: {
   hasApproval: false, 
   html: () => `
     <table class="ft" style="margin-bottom:5pt;width:auto;margin-left:auto;font-size:8.5pt">
-      <tr><td class="lbl2">발급번호</td><td class="val" style="width:80pt"><input class="di" style="font-size:8.5pt"/></td>
-          <td class="lbl2">발급담당자</td><td class="val" style="width:80pt"><input class="di" style="font-size:8.5pt"/></td></tr>
     </table>
     <div class="doc-title">재 직 증 명 서</div>
     <table class="ft">
