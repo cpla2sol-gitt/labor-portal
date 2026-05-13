@@ -68,7 +68,6 @@ career: {
             <td class="val" colspan="2"><input class="di" placeholder="관공서 제출용"/></td></tr>
       </tfoot>
     </table>
-    <div style="page-break-inside:avoid;break-inside:avoid;display:flow-root">
     <div class="body-text" style="text-align:center">위와 같은 내용이 사실임을 증명함.</div>
     <div class="sign-area">
       <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
