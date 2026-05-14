@@ -19,7 +19,7 @@ privacy: {
       본인은 <strong><input class="ii c-company" style="width:120pt"/></strong>(이하 "회사")의 재직근로자로서,
       인사관리상 개인정보 수집·이용이 필요하다는 것을 이해하고 아래 항목의 수집·이용에 동의합니다.
     </div>
-    <table class="ft" style="margin:7pt 0;font-size:8.5pt">
+    <table class="ft" style="margin:7pt 0;font-size:10pt">
       <thead>
         <tr><th>수집 항목</th><th>수집·이용 목적</th><th style="width:70pt">보유기간</th><th style="width:60pt">동의 여부</th></tr>
       </thead>
@@ -38,7 +38,7 @@ privacy: {
             <td class="val" style="text-align:center;padding:4pt">□ 동의 □ 거부</td></tr>
       </tbody>
     </table>
-    <div class="block-box" style="font-size:8.5pt">
+    <div class="block-box" style="font-size:10pt">
       ※ 개인정보 제공에 대한 거부 권리가 있으나, 미동의 시 적법하게 시행되는 내부규정 및 법령에 따라 발생하는 불이익에 대한 책임은 본인에게 있습니다.
     </div>
     <div class="sign-area">
