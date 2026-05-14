@@ -68,14 +68,14 @@ roster: {
           <td class="lbl">종사업무</td><td class="val"><input class="di" placeholder="인사 관리"/></td></tr>
       <tr><td class="lbl">최종학력</td><td class="val"><input class="di" placeholder="○○대학교 경영학과 졸업"/></td>
           <td class="lbl">기능·자격</td><td class="val"><input class="di" placeholder="공인노무사, 1종 운전면허"/></td></tr>
-      <tr><td class="lbl">경 력</td><td class="val" colspan="3"><textarea class="di" placeholder="전 직장명 / 근무기간 / 담당업무" style="min-height:100pt"></textarea></td></tr>
+      <tr><td class="lbl">경 력</td><td class="val" colspan="3"><textarea class="di" placeholder="전 직장명 / 근무기간 / 담당업무" style="min-height:120pt"></textarea></td></tr>
       <tr><td class="lbl">병 역</td><td class="val"><input class="di" placeholder="육군 병장 만기전역"/></td>
           <td class="lbl">고용일</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td></tr>
       <tr><td class="lbl">해고일</td><td class="val"><input class="di"/></td>
           <td class="lbl">퇴직일</td><td class="val"><input class="di"/></td></tr>
       <tr><td class="lbl">퇴직사유</td><td class="val"><input class="di"/></td>
           <td class="lbl">금품청산</td><td class="val"><input class="di"/></td></tr>
-      <tr><td class="lbl">특기사항</td><td class="val" colspan="3"><textarea class="di" placeholder="교육, 건강, 휴직 등"></textarea></td></tr>
+      <tr><td class="lbl">특기사항</td><td class="val" colspan="3"><textarea class="di" placeholder="교육, 건강, 휴직 등" style="min-height:120pt"></textarea></td></tr>
     </table>`
 },
 
