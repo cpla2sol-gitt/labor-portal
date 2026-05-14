@@ -24,7 +24,7 @@ privacy: {
         <tr><th>수집 항목</th><th>수집·이용 목적</th><th style="width:70pt">보유기간</th><th style="width:60pt">동의 여부</th></tr>
       </thead>
       <tbody>
-        <tr><td class="val" style="padding:4pt 50pt">성명, 주소, 이메일, 연락처, 학력, 경력, 자격증</td>
+        <tr><td class="val" style="padding:4pt 5pt">성명, 주소, 이메일, 연락처, 학력, 경력, 자격증</td>
             <td class="val" style="padding:4pt 5pt">채용·인사관리, 세법·노동관계법령 의무이행</td>
             <td class="val" style="text-align:center;padding:4pt">재직기간</td>
             <td class="val" style="text-align:center;padding:4pt">□ 동의 □ 거부</td></tr>
@@ -68,7 +68,7 @@ roster: {
           <td class="lbl">종사업무</td><td class="val"><input class="di" placeholder="인사 관리"/></td></tr>
       <tr><td class="lbl">최종학력</td><td class="val"><input class="di" placeholder="○○대학교 경영학과 졸업"/></td>
           <td class="lbl">기능·자격</td><td class="val"><input class="di" placeholder="공인노무사, 1종 운전면허"/></td></tr>
-      <tr><td class="lbl">경 력</td><td class="val" colspan="3"><textarea class="di" placeholder="전 직장명 / 근무기간 / 담당업무" style="min-height:36pt"></textarea></td></tr>
+      <tr><td class="lbl">경 력</td><td class="val" colspan="3"><textarea class="di" placeholder="전 직장명 / 근무기간 / 담당업무" style="min-height:100pt"></textarea></td></tr>
       <tr><td class="lbl">병 역</td><td class="val"><input class="di" placeholder="육군 병장 만기전역"/></td>
           <td class="lbl">고용일</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td></tr>
       <tr><td class="lbl">해고일</td><td class="val"><input class="di"/></td>
