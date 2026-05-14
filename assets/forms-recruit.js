@@ -24,7 +24,7 @@ privacy: {
         <tr><th>수집 항목</th><th>수집·이용 목적</th><th style="width:70pt">보유기간</th><th style="width:60pt">동의 여부</th></tr>
       </thead>
       <tbody>
-        <tr><td class="val" style="padding:4pt 5pt">성명, 주소, 이메일, 연락처, 학력, 경력, 자격증</td>
+        <tr><td class="val" style="padding:4pt 50pt">성명, 주소, 이메일, 연락처, 학력, 경력, 자격증</td>
             <td class="val" style="padding:4pt 5pt">채용·인사관리, 세법·노동관계법령 의무이행</td>
             <td class="val" style="text-align:center;padding:4pt">재직기간</td>
             <td class="val" style="text-align:center;padding:4pt">□ 동의 □ 거부</td></tr>
