@@ -12,7 +12,7 @@ privacy: {
     <div class="doc-title">개인정보의 수집·이용에 관한 동의서</div>
 
     <div class="body-text" style="font-size:10pt;margin-bottom:6pt">
-      1. <input class="ii" placeholder="홍길동" style="width:60pt"/>은(는) <strong><input class="ii c-company" style="width:120pt"/></strong>의 재직근로자로서,
+      <input class="ii" placeholder="홍길동" style="width:60pt"/>은(는) <strong><input class="ii c-company" style="width:120pt"/></strong>의 재직근로자로서,
       인사관리상 개인정보의 수집·이용이 필요하다는 것을 이해하고 있고 다음과 같은 개인정보·민감정보·고유식별정보를 수집·이용하는 것에 동의합니다.
     </div>
 
@@ -63,20 +63,9 @@ privacy: {
     <div class="body-text" style="font-size:9.5pt;text-align:right;margin-bottom:10pt">
       고유식별정보의 수집·이용에(□동의함 □동의하지 않음)
     </div>
-
-    <div class="body-text" style="font-size:10pt;margin-bottom:4pt">
-      2. <input class="ii" placeholder="홍길동" style="width:60pt"/>은(는) <strong><input class="ii c-company" style="width:120pt"/></strong>가 취득한 개인정보를 재직기간 동안 내부적으로 채용·승진 등 인사관리에 이용하고, 외부적으로 법령에 따라 관계기관에 제공하는 것에 동의합니다.
-    </div>
-    <div class="body-text" style="font-size:9.5pt;text-align:right;margin-bottom:10pt">
-      개인정보의 수집·이용에(□동의함 □동의하지 않음)
-    </div>
-
+      
     <div class="body-text" style="font-size:10pt;margin-bottom:10pt">
-      3. 본사는 취득한 개인정보를 수집한 목적에 필요한 범위에서 적합하게 처리하고 그 목적 외의 용도로 사용하지 않으며 개인 정보를 제공한 계약당사자는 언제나 자신이 입력한 개인정보를 열람수정 및 정보제공에 대한 철회를 할 수 있습니다.
-    </div>
-
-    <div class="body-text" style="font-size:10pt;margin-bottom:10pt">
-      4. 본인은 1~3항에 따라 수집되는 개인정보의 항목과 개인정보의 수집·이용에 대한 거부를 할 수 있는 권리가 있다는 사실을 충분히 설명 받고 숙지하였으며, 미동의시 적법하게 시행되는 회사내부규정 및 법령에 따라 발생하는 불이익에 대한 책임은 본인에게 있음을 확인합니다.
+      본사는 취득한 개인정보를 수집한 목적에 필요한 범위에서 적합하게 처리하고 그 목적 외의 용도로 사용하지 않으며 개인 정보를 제공한 계약당사자는 언제나 자신이 입력한 개인정보를 열람수정 및 정보제공에 대한 철회를 할 수 있습니다. 본인은 1~3항에 따라 수집되는 개인정보의 항목과 개인정보의 수집·이용에 대한 거부를 할 수 있는 권리가 있다는 사실을 충분히 설명 받고 숙지하였으며, 미동의시 적법하게 시행되는 회사내부규정 및 법령에 따라 발생하는 불이익에 대한 책임은 본인에게 있음을 확인합니다.
     </div>
 
     <div style="margin-top:16pt;text-align:center;font-size:10pt">
