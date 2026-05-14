@@ -15,7 +15,7 @@ privacy: {
           <td class="lbl">생년월일</td><td class="val"><input class="di" placeholder="1990. 01. 01."/></td></tr>
       <tr><td class="lbl">주 소</td><td class="val" colspan="3"><input class="di" placeholder="서울특별시 강남구 테헤란로 000"/></td></tr>
     </table>
-    <div class="body-text" style="font-size:9pt">
+    <div class="body-text" style="font-size:10pt">
       본인은 <strong><input class="ii c-company" style="width:120pt"/></strong>(이하 "회사")의 재직근로자로서,
       인사관리상 개인정보 수집·이용이 필요하다는 것을 이해하고 아래 항목의 수집·이용에 동의합니다.
     </div>
