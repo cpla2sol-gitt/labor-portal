@@ -61,21 +61,21 @@ roster: {
   html: () => `
     <div class="doc-title">근 로 자 명 부</div>
     <table class="ft">
-      <tr><td class="lbl">① 성 명</td><td class="val"><input class="di" placeholder="홍길동"/></td>
-          <td class="lbl">② 생년월일</td><td class="val"><input class="di" placeholder="1990. 01. 01."/></td></tr>
-      <tr><td class="lbl">③ 주 소</td><td class="val" colspan="3"><input class="di" placeholder="서울특별시 강남구 테헤란로 000  (전화: 010-0000-0000)"/></td></tr>
-      <tr><td class="lbl">④ 부양가족</td><td class="val"><input class="di" placeholder="0 명"/></td>
-          <td class="lbl">⑤ 종사업무</td><td class="val"><input class="di" placeholder="인사 관리"/></td></tr>
-      <tr><td class="lbl">⑦ 최종학력</td><td class="val"><input class="di" placeholder="○○대학교 경영학과 졸업"/></td>
-          <td class="lbl">⑥ 기능·자격</td><td class="val"><input class="di" placeholder="공인노무사, 1종 운전면허"/></td></tr>
-      <tr><td class="lbl">⑧ 경 력</td><td class="val" colspan="3"><textarea class="di" placeholder="전 직장명 / 근무기간 / 담당업무" style="min-height:36pt"></textarea></td></tr>
-      <tr><td class="lbl">⑨ 병 역</td><td class="val"><input class="di" placeholder="육군 병장 만기전역"/></td>
-          <td class="lbl">⑭ 고용일</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td></tr>
-      <tr><td class="lbl">⑩ 해고일</td><td class="val"><input class="di"/></td>
-          <td class="lbl">⑪ 퇴직일</td><td class="val"><input class="di"/></td></tr>
-      <tr><td class="lbl">⑫ 퇴직사유</td><td class="val"><input class="di"/></td>
-          <td class="lbl">⑬ 금품청산</td><td class="val"><input class="di"/></td></tr>
-      <tr><td class="lbl">⑰ 특기사항</td><td class="val" colspan="3"><textarea class="di" placeholder="교육, 건강, 휴직 등"></textarea></td></tr>
+      <tr><td class="lbl">성 명</td><td class="val"><input class="di" placeholder="홍길동"/></td>
+          <td class="lbl">생년월일</td><td class="val"><input class="di" placeholder="1990. 01. 01."/></td></tr>
+      <tr><td class="lbl">주 소</td><td class="val" colspan="3"><input class="di" placeholder="서울특별시 강남구 테헤란로 000  (전화: 010-0000-0000)"/></td></tr>
+      <tr><td class="lbl">부양가족</td><td class="val"><input class="di" placeholder="0 명"/></td>
+          <td class="lbl">종사업무</td><td class="val"><input class="di" placeholder="인사 관리"/></td></tr>
+      <tr><td class="lbl">최종학력</td><td class="val"><input class="di" placeholder="○○대학교 경영학과 졸업"/></td>
+          <td class="lbl">기능·자격</td><td class="val"><input class="di" placeholder="공인노무사, 1종 운전면허"/></td></tr>
+      <tr><td class="lbl">경 력</td><td class="val" colspan="3"><textarea class="di" placeholder="전 직장명 / 근무기간 / 담당업무" style="min-height:36pt"></textarea></td></tr>
+      <tr><td class="lbl">병 역</td><td class="val"><input class="di" placeholder="육군 병장 만기전역"/></td>
+          <td class="lbl">고용일</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td></tr>
+      <tr><td class="lbl">해고일</td><td class="val"><input class="di"/></td>
+          <td class="lbl">퇴직일</td><td class="val"><input class="di"/></td></tr>
+      <tr><td class="lbl">퇴직사유</td><td class="val"><input class="di"/></td>
+          <td class="lbl">금품청산</td><td class="val"><input class="di"/></td></tr>
+      <tr><td class="lbl">특기사항</td><td class="val" colspan="3"><textarea class="di" placeholder="교육, 건강, 휴직 등"></textarea></td></tr>
     </table>`
 },
 
