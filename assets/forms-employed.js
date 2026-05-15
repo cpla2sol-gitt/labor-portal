@@ -13,7 +13,7 @@ employed: {
     <div class="doc-title">재 직 증 명 서</div>
     <table class="ft">
       <tr><td class="lbl">성 명</td><td class="val"><input class="di" placeholder="홍길동"/></td>
-          <td class="lbl">주민등록번호</td><td class="val"><input class="di" placeholder="900101 - *******"/></td></tr>
+          <td class="lbl">주민번호</td><td class="val"><input class="di" placeholder="900101 - *******"/></td></tr>
       <tr><td class="lbl">소 속</td><td class="val"><input class="di" placeholder="인사팀"/></td>
           <td class="lbl">직 위</td><td class="val"><input class="di" placeholder="대리"/></td></tr>
       <tr><td class="lbl">입사일</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td>
