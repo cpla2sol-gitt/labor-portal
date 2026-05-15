@@ -18,14 +18,14 @@ resign: {
       <tr><td class="lbl">입사일자</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td>
           <td class="lbl">연 락 처</td><td class="val"><input class="di" placeholder="010-0000-0000"/></td></tr>
       <tr><td class="lbl">사직 사유</td><td class="val" colspan="3">
-        <select class="di" style="margin-bottom:3pt"><option value="">— 사유 선택 —</option><option>개인신병</option><option>가사</option><option>전직</option><option>진학</option><option>결혼</option><option>권고사직</option><option>기타</option></select>
+        <select class="di" style="margin-bottom:3pt"><option value="">— 사유 선택 —</option><option>개인 일신상의 사유</option><option>가사</option><option>전직</option><option>진학</option><option>결혼</option><option>권고사직</option><option>기타</option></select>
         <input class="di" placeholder="상세 사유"/>
       </td></tr>
       <tr><td class="lbl">사직 후 주소</td><td class="val" colspan="3"><input class="di" placeholder="서울특별시 강남구 테헤란로 000"/></td></tr>
       <tr><td class="lbl">긴급연락처</td><td class="val"><input class="di" placeholder="010-0000-0000"/></td>
           <td class="lbl">e-mail</td><td class="val"><input class="di" placeholder="hong@email.com"/></td></tr>
     </table>
-    <div class="block-box" style="font-size:9pt;margin-top:8pt">
+    <div class="block-box" style="font-size:10pt;margin-top:8pt">
       본인은 본인의 자유의사에 따라 위와 같은 사유로 사직하고자 하오니 승인하여 주시기 바랍니다.<br><br>
       <strong>— 서약사항 —</strong><br>
       1. 재직 기간 중 가지고 있던 영업·고객 관련 비밀이 기록된 일체의 자료를 반납하겠으며,
