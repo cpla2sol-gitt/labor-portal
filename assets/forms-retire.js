@@ -64,7 +64,7 @@ dismiss: {
     </table>
     <div class="sec-label">■ 해고 사유 (구체적 사실 적시)</div>
     <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:80pt;font-size:9.5pt;line-height:1.75" placeholder="귀하는 취업규칙 제__조 제__항에 따라 아래와 같은 행위로 인하여 해고에 해당합니다.&#10;&#10;1. 2025. 01. 05.부터 2025. 01. 10.까지 6일간 정당한 사유 없이 무단결근..."></textarea>
-    <div class="body-text" style="font-size:9pt">
+    <div class="body-text" style="font-size:10pt">
       위 사유로 취업규칙 제<input class="ii" style="width:20pt"/>조 제<input class="ii" style="width:20pt"/>항에 의거하여 해고를 통보합니다.
     </div>
     <div class="sign-area">
@@ -99,7 +99,7 @@ severance: {
         <textarea class="di" placeholder="상세 사유 기재" style="min-height:36pt"></textarea>
       </td></tr>
     </table>
-    <div class="body-text" style="text-align:center;font-size:9pt">근로자퇴직급여보장법 제8조 제2항에 의거 위와 같이 퇴직금 중간정산을 신청하오니 수락하여 주시기 바랍니다.</div>
+    <div class="body-text" style="text-align:center;font-size:10pt">근로자퇴직급여보장법 제8조 제2항에 의거 위와 같이 퇴직금 중간정산을 신청하오니 수락하여 주시기 바랍니다.</div>
     <div class="sign-area">
       <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
       <div class="sign-right">
@@ -127,7 +127,7 @@ clearance: {
           <td class="lbl">근무부서</td><td class="val"><input class="di" placeholder="영업팀 과장"/></td></tr>
       <tr><td class="lbl">근무기간</td><td class="val" colspan="3"><input class="di" placeholder="2020. 03. 02. ~ 2025. 06. 30."/></td></tr>
     </table>
-    <div class="block-box" style="font-size:9pt;line-height:1.9">
+    <div class="block-box" style="font-size:10pt;line-height:1.9">
       상기 본인은 <input class="ii c-company" style="width:110pt" placeholder="(주)회사명"/>에
       <input class="ii" style="width:90pt" placeholder="2020. 03. 02."/>에 입사하여
       <input class="ii" style="width:90pt" placeholder="2025. 06. 30."/>까지 근무하였으며,
