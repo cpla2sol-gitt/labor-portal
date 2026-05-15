@@ -235,7 +235,7 @@ maternity: {
   html: () => `
     <div class="doc-title">연장·야간·휴일근로 동의서</div>
     <table class="ft" style="margin-bottom:10pt">
-      <tr><td class="lbl">소 속</td><td class="val"><input class="di c-company" placeholder="(주)회사명"/></td>
+      <tr><td class="lbl">소 속</td><td class="val"><input class="di" placeholder="개발팀"/></td>
           <td class="lbl">업 무</td><td class="val"><input class="di" placeholder="인사·노무 관리"/></td>
           <td class="lbl">직 위</td><td class="val"><input class="di" placeholder="대리"/></td></tr>
       <tr><td class="lbl">성 명</td><td class="val" colspan="5"><input class="di" placeholder="홍길동"/></td></tr>
