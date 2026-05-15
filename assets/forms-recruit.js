@@ -18,7 +18,7 @@ privacy: {
 
     <table class="ft" style="margin-bottom:3pt;font-size:8.5pt">
       <thead>
-        <tr><th style="width:30%">개인정보항목</th><th style="width:42%">수집·이용 목적</th><th>보유기간</th></tr>
+        <tr><th style="width:30%">개인정보 항목</th><th style="width:42%">수집·이용 목적</th><th>보유기간</th></tr>
       </thead>
       <tbody>
         <tr>
@@ -28,7 +28,7 @@ privacy: {
         </tr>
       </tbody>
     </table>
-    <div class="body-text" style="font-size:9.5pt;text-align:right;margin-bottom:10pt">
+    <div class="body-text" style="font-size:9.5pt;text-align:right;margin-bottom:5pt">
       개인정보의 수집·이용에(□동의함 □동의하지 않음)
     </div>
 
@@ -44,7 +44,7 @@ privacy: {
         </tr>
       </tbody>
     </table>
-    <div class="body-text" style="font-size:9.5pt;text-align:right;margin-bottom:10pt">
+    <div class="body-text" style="font-size:9.5pt;text-align:right;margin-bottom:5pt">
       민감정보의 수집·이용에(□동의함 □동의하지 않음)
     </div>
 
@@ -60,7 +60,7 @@ privacy: {
         </tr>
       </tbody>
     </table>
-    <div class="body-text" style="font-size:9.5pt;text-align:right;margin-bottom:10pt">
+    <div class="body-text" style="font-size:9.5pt;text-align:right;margin-bottom:5pt">
       고유식별정보의 수집·이용에(□동의함 □동의하지 않음)
     </div>
       
