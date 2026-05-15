@@ -94,7 +94,7 @@ earlyleave: {
       <tr><td class="lbl">직 위</td><td class="val"><input class="di" placeholder="대리"/></td>
           <td class="lbl">주민번호</td><td class="val"><input class="di" placeholder="900101-*******"/></td></tr>
       <tr><td class="lbl">기 간</td><td class="val" colspan="3"><input class="di" placeholder="2025. 01. 10.   14:00 부터   16:00 까지   ( 2시간 )"/></td></tr>
-      <tr><td class="lbl">사 유</td><td class="val" colspan="3"><textarea class="di" placeholder="병원 진료"></textarea></td></tr>
+      <tr><td class="lbl">사 유</td><td class="val" colspan="3"><textarea class="di" placeholder="병원 진료" style="min-height:120pt"></textarea></td></tr>
       <tr><td class="lbl">기타사항</td><td class="val" colspan="3"><input class="di"/></td></tr>
     </table>
     <div class="body-text" style="text-align:center">위와 같은 사유로 □조퇴 □외출 하고자 하오니 허가하여 주시기 바랍니다.</div>
@@ -123,7 +123,7 @@ absent: {
       <tr><td class="lbl">직 위</td><td class="val"><input class="di" placeholder="대리"/></td>
           <td class="lbl">주민번호</td><td class="val"><input class="di" placeholder="900101-*******"/></td></tr>
       <tr><td class="lbl">기 간</td><td class="val" colspan="3"><input class="di" placeholder="2025. 01. 10. 부터   2025. 01. 10. 까지   ( 1일간 )"/></td></tr>
-      <tr><td class="lbl">사 유</td><td class="val" colspan="3"><textarea class="di" placeholder="몸살로 인한 병가"></textarea></td></tr>
+      <tr><td class="lbl">사 유</td><td class="val" colspan="3"><textarea class="di" placeholder="몸살로 인한 병가" style="min-height:120pt"></textarea></td></tr>
       <tr><td class="lbl">기타사항</td><td class="val" colspan="3"><input class="di"/></td></tr>
     </table>
     <div class="body-text" style="text-align:center">위와 같은 사유로 결근코자 하오니 허가하여 주시기 바랍니다.</div>
@@ -152,7 +152,7 @@ leave: {
       <tr><td class="lbl">직 위</td><td class="val"><input class="di" placeholder="대리"/></td>
           <td class="lbl">주민번호</td><td class="val"><input class="di" placeholder="900101-*******"/></td></tr>
       <tr><td class="lbl">기 간</td><td class="val" colspan="3"><input class="di" placeholder="2025. 01. 10. 부터   2025. 01. 14. 까지   ( 5일간 )"/></td></tr>
-      <tr><td class="lbl">사 유</td><td class="val" colspan="3"><textarea class="di" placeholder="연차유급휴가 사용"></textarea></td></tr>
+      <tr><td class="lbl">사 유</td><td class="val" colspan="3"><textarea class="di" placeholder="연차유급휴가 사용"> style="min-height:120pt"></textarea></td></tr>
       <tr><td class="lbl">비상연락처</td><td class="val" colspan="3"><input class="di" placeholder="010-0000-0000"/></td></tr>
     </table>
     <div class="body-text" style="text-align:center">위와 같은 사유로 □휴가 □휴직 하고자 하오니 허가하여 주시기 바랍니다.</div>
@@ -212,7 +212,7 @@ maternity: {
           <td class="lbl">주민번호</td><td class="val"><input class="di" placeholder="900101-*******"/></td></tr>
       <tr><td class="lbl">휴직일자</td><td class="val"><input class="di" placeholder="2024. 01. 01."/></td>
           <td class="lbl">복직일자</td><td class="val"><input class="di" placeholder="2025. 01. 02."/></td></tr>
-      <tr><td class="lbl">복직사유</td><td class="val" colspan="3"><textarea class="di" placeholder="육아휴직 종료에 따른 복직"></textarea></td></tr>
+      <tr><td class="lbl">복직사유</td><td class="val" colspan="3"><textarea class="di" placeholder="육아휴직 종료에 따른 복직" style="min-height:120pt"></textarea></td></tr>
       <tr><td class="lbl">기타사항</td><td class="val" colspan="3"><input class="di"/></td></tr>
     </table>
     <div class="body-text" style="text-align:center">위와 같은 사유로 복직코자 하오니 허가하여 주시기 바랍니다.</div>
@@ -272,7 +272,7 @@ maternity: {
           <td class="lbl">직 위</td><td class="val"><input class="di" placeholder="과장"/></td></tr>
       <tr><td class="lbl">성 명</td><td class="val" colspan="5"><input class="di" placeholder="홍길동"/></td></tr>
       <tr><td class="lbl">시행 예정일</td><td class="val" colspan="5"><input class="di" placeholder="2025. 01. 10. (금요일)   18:00 ~ 22:00"/></td></tr>
-      <tr><td class="lbl">신청 사유</td><td class="val" colspan="5"><textarea class="di" placeholder="서버 정기점검 및 업데이트 작업 필요"></textarea></td></tr>
+      <tr><td class="lbl">신청 사유</td><td class="val" colspan="5"><textarea class="di" placeholder="서버 정기점검 및 업데이트 작업 필요" style="min-height:150pt"></textarea></td></tr>
     </table>
     <div class="body-text" style="text-align:center">위의 내용으로 연장·야간·휴일근로를 신청하오니 허가해주시기 바랍니다.</div>
     <div class="sign-area">
