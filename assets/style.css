@@ -56,11 +56,11 @@
   --a4-pad-h:   27mm;   /* 좌우 여백  — 편집기에서 조절 가능 */
 
   /* ─── 서식 내부 스타일 변수 (디자인 편집기에서 실시간 조절) ─── */
-  --form-font:     12pt;   /* (하위호환) 서식 기본 폰트 */
+  --form-font:     11pt;   /* (하위호환) 서식 기본 폰트 */
   --title-font:    18pt;   /* ① 제목   — .doc-title */
-  --label-font:    12pt;   /* ② 분류명 — 테이블 라벨·헤더 셀 (.lbl .lbl2 th) */
-  --content-font:  12pt;   /* ③ 내용   — 입력값·본문 (.di .ii .body-text) */
-  --etc-font:      12pt;   /* ④ 기타   — 블록박스·부제목·섹션레이블 */
+  --label-font:    11pt;   /* ② 분류명 — 테이블 라벨·헤더 셀 (.lbl .lbl2 th) */
+  --content-font:  11pt;   /* ③ 내용   — 입력값·본문 (.di .ii .body-text) */
+  --etc-font:      11pt;   /* ④ 기타   — 블록박스·부제목·섹션레이블 */
   --ap-height:     42pt;   /* 결재란 서명 공간 높이 */
   --cell-pad-v:    6pt;     /* 테이블 셀 세로 패딩 (셀 높이 조절) */
   --sign-w:        150pt;   /* 서명란(대표자명·사업장명) 입력칸 너비 */
@@ -455,14 +455,14 @@ header {
 
 
 
-.ap-table { border-collapse: collapse; font-size: 12pt; }
+.ap-table { border-collapse: collapse; font-size: 11pt; }
 .ap-table td { border: 1px solid #888; padding: 0; text-align: center; }
 
 /* '결재' 레이블 셀 */
 .ap-label {
   background: var(--ap-bg);
   font-weight: 500;
-  font-size: 12pt;    /* "결재" 글자 크기 */
+  font-size: 11pt;    /* "결재" 글자 크기 */
   vertical-align: middle;
   width: 16pt;          /* "결재" 셀 너비 */
   padding: 4px 3px;
@@ -476,7 +476,7 @@ header {
 /* 각 직급 셀 */
 .ap-box { width: 50pt; vertical-align: top; } /* 결재 칸 너비 — 숫자로 조절 */
 .ap-box-name {
-  font-size: 12pt;  /* 직급명 글자 크기 */
+  font-size: 11pt;  /* 직급명 글자 크기 */
   padding: 3px 0;
   border-bottom: 1px solid #888;
   color: #555;
@@ -728,7 +728,7 @@ textarea.di {
   border-bottom: 1px dashed var(--border); /* 점선 = 절취선 */
   padding-bottom: 5pt;
 }
-.receipt-body { font-size: 12pt; text-align: center; line-height: 2.2; }
+.receipt-body { font-size: 11pt; text-align: center; line-height: 2.2; }
 
 
 /* ─────────────────────────────────────────────────────────────
