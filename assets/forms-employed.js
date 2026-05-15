@@ -152,7 +152,7 @@ leave: {
       <tr><td class="lbl">직 위</td><td class="val"><input class="di" placeholder="대리"/></td>
           <td class="lbl">주민번호</td><td class="val"><input class="di" placeholder="900101-*******"/></td></tr>
       <tr><td class="lbl">기 간</td><td class="val" colspan="3"><input class="di" placeholder="2025. 01. 10. 부터   2025. 01. 14. 까지   ( 5일간 )"/></td></tr>
-      <tr><td class="lbl">사 유</td><td class="val" colspan="3"><textarea class="di" placeholder="연차유급휴가 사용"> style="min-height:120pt"></textarea></td></tr>
+      <tr><td class="lbl">사 유</td><td class="val" colspan="3"><textarea class="di" placeholder="연차유급휴가 사용" style="min-height:120pt"></textarea></td></tr>
       <tr><td class="lbl">비상연락처</td><td class="val" colspan="3"><input class="di" placeholder="010-0000-0000"/></td></tr>
     </table>
     <div class="body-text" style="text-align:center">위와 같은 사유로 □휴가 □휴직 하고자 하오니 허가하여 주시기 바랍니다.</div>
