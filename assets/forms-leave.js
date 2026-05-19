@@ -16,10 +16,7 @@ annual: {
         <option value="over">1년 이상 근로자</option>
         <option value="under">1년 미만 근로자</option>
       </select>
-    </div>
-    <div id="annual-guide" class="block-box" style="font-size:9.5pt;line-height:1.8;margin-bottom:10pt;color:#444">
-      1차 촉구: 연차 소멸 <u>6개월 전</u> 기준 10일 이내 서면 통지·촉구 → 2차 지정: 소멸 <u>2개월 전</u>까지 회사가 서면 지정 → 수당 지급의무 면제 <span style="color:#999;font-size:9pt"></span>
-    </div>
+    </div>    
     <table class="ft" style="table-layout:fixed;width:100%;margin-bottom:0">
       <colgroup>
         <col style="width:20%"/><col style="width:30%"/>
