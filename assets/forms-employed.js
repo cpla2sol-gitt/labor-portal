@@ -126,7 +126,7 @@ absent: {
       <tr><td class="lbl">사 유</td><td class="val" colspan="3"><textarea class="di" placeholder="몸살로 인한 병가" style="min-height:120pt"></textarea></td></tr>
       <tr><td class="lbl">기타사항</td><td class="val" colspan="3"><input class="di"/></td></tr>
     </table>
-    <div class="body-text" style="text-align:center">위와 같은 사유로 결근코자 하오니 허가하여 주시기 바랍니다.</div>
+    <div class="body-text" style="text-align:center">위와 같은 사유로 결근하고자 하오니 허가하여 주시기 바랍니다.</div>
     <div class="sign-area">
       <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
       <div class="sign-right">
