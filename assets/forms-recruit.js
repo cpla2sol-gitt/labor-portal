@@ -28,7 +28,7 @@ privacy: {
         </tr>
       </tbody>
     </table>
-    <div class="body-text" style="font-size:9.5pt;text-align:right;margin-bottom:1pt">
+    <div class="body-text" style="font-size:9.5pt;text-align:right;margin-bottom:0.1pt">
       개인정보의 수집·이용에(□동의함 □동의하지 않음)
     </div>
 
@@ -44,7 +44,7 @@ privacy: {
         </tr>
       </tbody>
     </table>
-    <div class="body-text" style="font-size:9.5pt;text-align:right;margin-bottom:1pt">
+    <div class="body-text" style="font-size:9.5pt;text-align:right;margin-bottom:0.1pt">
       민감정보의 수집·이용에(□동의함 □동의하지 않음)
     </div>
 
@@ -60,11 +60,11 @@ privacy: {
         </tr>
       </tbody>
     </table>
-    <div class="body-text" style="font-size:9.5pt;text-align:right;margin-bottom:1pt">
+    <div class="body-text" style="font-size:9.5pt;text-align:right;margin-bottom:0.1pt">
       고유식별정보의 수집·이용에(□동의함 □동의하지 않음)
     </div>
       
-    <div class="body-text" style="font-size:10pt;margin-bottom:3pt">
+    <div class="body-text" style="font-size:10pt;margin-bottom:2pt">
       본사는 취득한 개인정보를 수집한 목적에 필요한 범위에서 적합하게 처리하고 그 목적 외의 용도로 사용하지 않으며 개인 정보를 제공한 계약당사자는 언제나 자신이 입력한 개인정보를 열람수정 및 정보제공에 대한 철회를 할 수 있습니다. 본인은 1~3항에 따라 수집되는 개인정보의 항목과 개인정보의 수집·이용에 대한 거부를 할 수 있는 권리가 있다는 사실을 충분히 설명 받고 숙지하였으며, 미동의시 적법하게 시행되는 회사내부규정 및 법령에 따라 발생하는 불이익에 대한 책임은 본인에게 있음을 확인합니다.
     </div>
 
