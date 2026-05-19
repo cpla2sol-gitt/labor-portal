@@ -55,20 +55,22 @@ annual: {
       귀하가 연차휴가를 사용한 것으로 처리하고, 추후 연차휴가미사용수당이 지급되지 않음을 알려드리오니
       이 점 유념하시어 휴가제도의 취지에 맞게 충분한 휴식을 취하시기 바랍니다.
     </div>
-    <div class="sign-area">
-      <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
-      <div class="sign-right">
-        <div class="sign-row"><span class="s-lbl">회사명</span><input class="s-in c-company" placeholder="(주)회사명"/></div>
-        <div class="sign-row sr-ceo-row"><span class="s-lbl">대표자</span><input class="s-in c-ceo" placeholder="홍대표"/> <span class="stamp">서명/인</span></div>
+    <div style="margin-top:auto">
+      <div class="sign-area" style="margin-top:0">
+        <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
+        <div class="sign-right">
+          <div class="sign-row"><span class="s-lbl">회사명</span><input class="s-in c-company" placeholder="(주)회사명"/></div>
+          <div class="sign-row sr-ceo-row"><span class="s-lbl">대표자</span><input class="s-in c-ceo" placeholder="홍대표"/> <span class="stamp">서명/인</span></div>
+        </div>
       </div>
-    </div>
-    <div class="receipt">
-      <div class="receipt-cut">— 노무수령거부 통지서 수령확인증 (절취선) —</div>
-      <div class="receipt-body">
-        본인은 금일 회사의 노무수령거부 통지서를 수령하였음을 확인합니다.<br>
-        수령 일시: <input class="ii" placeholder="2025. 07. 15." style="width:100pt"/> &nbsp;
-        시각: <input class="ii" placeholder="09:00" style="width:45pt"/><br>
-        수령인: <input class="ii" placeholder="홍길동" style="width:90pt"/> &nbsp;<span class="stamp">서명/인</span>
+      <div class="receipt">
+        <div class="receipt-cut">— 노무수령거부 통지서 수령확인증 (절취선) —</div>
+        <div class="receipt-body">
+          본인은 금일 회사의 노무수령거부 통지서를 수령하였음을 확인합니다.<br>
+          수령 일시: <input class="ii" placeholder="2025. 07. 15." style="width:100pt"/> &nbsp;
+          시각: <input class="ii" placeholder="09:00" style="width:45pt"/><br>
+          수령인: <input class="ii" placeholder="홍길동" style="width:90pt"/> &nbsp;<span class="stamp">서명/인</span>
+        </div>
       </div>
     </div>`
 },
