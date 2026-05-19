@@ -84,7 +84,7 @@ annual: {
       연차휴가를 사용한 것으로 처리되어 추후 연차휴가미사용수당이 지급되지 않을 수 있음을 알려드리오니
       이 점 유념하시어 휴가제도의 취지에 맞게 충분한 휴식을 취하시기 바랍니다.
     </div>
-    <div class="sign-bottom-wrap" style="margin-top:auto; break-inside:avoid; page-break-inside:avoid">
+    <div class="sign-bottom-wrap" style="margin-top:16pt; break-inside:avoid; page-break-inside:avoid">
       <div class="sign-area" style="margin-top:0">
         <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
         <div class="sign-right">
