@@ -242,7 +242,7 @@ statement: {
 
     <div class="sec-label" style="margin-bottom:5pt">○ 안건 및 요지</div>
     <table class="ft" style="table-layout:fixed;width:100%;margin-bottom:12pt">
-      <colgroup><col style="width:7%"/><col style="width:27%"/><col style="width:12%"/><col style="width:37%"/><col style="width:17%"/></colgroup>
+      <colgroup><col style="width:6.5%"/><col style="width:27%"/><col style="width:12%"/><col style="width:37%"/><col style="width:17.5%"/></colgroup>
       <thead>
         <tr><th style="width:28pt">번호</th><th>제 목</th><th style="width:80pt">신청인</th><th>심의(의결) 요지</th><th style="width:80pt">심의(의결) 결과</th></tr>
       </thead>
@@ -268,7 +268,7 @@ statement: {
           <td class="val" style="text-align:center"><input class="di"/></td>
           <td class="val"><input class="di"/></td>
           <td class="val"><input class="di"/></td>
-          <td class="val"><textarea class="di" style="min-height:40pt;font-size:8.5pt"></textarea></td>
+          <td class="val"><textarea class="di" style="min-height:50pt;font-size:8.5pt"></textarea></td>
           <td class="val"><input class="di"/></td>
         </tr>
       </tbody>
@@ -306,8 +306,8 @@ disciplinary: {
     <div class="sec-label">■ 의결주문</div>
     <input class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:4pt 7pt;margin-bottom:8pt" placeholder="예) 해고 (2025. 02. 01.부)"/>
     <div class="sec-label">■ 징계사유</div>
-    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:250pt;font-size:9.5pt;line-height:1.75" placeholder="징계사유를 구체적으로 기재합니다."></textarea>
-    <div class="sign-area">
+    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:200pt;font-size:9.5pt;line-height:1.75" placeholder="징계사유를 구체적으로 기재합니다."></textarea>
+    <div class="sign-area" style="margin-top:auto">
       <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
       <div>
         <div style="font-size:9pt;color:var(--muted);text-align:right;margin-bottom:5pt"><input class="s-in c-company" placeholder="(주)회사명"/> 인사위원회</div>
