@@ -15,24 +15,35 @@ annual: {
           <td class="lbl">소 속</td><td class="val"><input class="di" placeholder="인사팀"/></td></tr>
       <tr><td class="lbl">직 위</td><td class="val"><input class="di" placeholder="대리"/></td>
           <td class="lbl">주민번호</td><td class="val"><input class="di" placeholder="900101-*******"/></td></tr>
-      <tr><th>연차 발생 대상기간</th><th>연차 사용 대상기간</th><th style="width:55pt">발생(A)</th><th style="width:55pt">사용(B)</th><th style="width:55pt">미사용(A-B)</th></tr>
-      <tr><td class="val" style="text-align:center"><input class="di" placeholder="2024.01.01~12.31"/></td>
-          <td class="val" style="text-align:center"><input class="di" placeholder="2025.01.01~12.31"/></td>
+      <tr><td class="lbl">입사일자</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td>
+          <td class="lbl">연차 소멸예정일</td><td class="val"><input class="di" placeholder="2025. 12. 31."/></td></tr>
+      <tr><td class="lbl">발생 기준</td><td class="val" colspan="3">
+        <select class="di"><option value="">— 선택 —</option><option>입사일 기준</option><option>회계연도 기준 (1월 1일)</option></select>
+      </td></tr>
+      <tr><th style="white-space:pre-line">연차 발생&#10;대상기간</th><th style="white-space:pre-line">연차 사용&#10;대상기간</th><th style="width:55pt">발생(A)</th><th style="width:55pt">사용(B)</th><th style="width:55pt">미사용(A-B)</th></tr>
+      <tr><td class="val" style="text-align:center"><textarea class="di" rows="2" style="resize:none;text-align:center" placeholder="2024.01.01~12.31"></textarea></td>
+          <td class="val" style="text-align:center"><textarea class="di" rows="2" style="resize:none;text-align:center" placeholder="2025.01.01~12.31"></textarea></td>
           <td class="val" style="text-align:center"><input class="di" placeholder="15"/></td>
           <td class="val" style="text-align:center"><input class="di" placeholder="10"/></td>
           <td class="val" style="text-align:center"><input class="di" placeholder="5"/></td></tr>
     </table>
-    <div class="block-box" style="font-size:9pt;line-height:1.9">
+    <div class="block-box" style="font-size:11pt;line-height:1.9">
       1. 귀하의 통지일 현재 사용가능한 미사용 연차유급휴가일수는 <input class="ii" placeholder="5" style="width:22pt"/>일임을 알려드립니다.<br>
       2. <input class="ii" placeholder="2025. 07. 01." style="width:90pt"/>까지 미사용 연차유급휴가일수의 사용시기를 지정하여 서면으로 통보하여 주실 것을 촉구드립니다.<br>
       3. 동 기한 내에 사용시기 지정통보가 제출되지 아니한 경우 회사가 임의 지정할 예정이며, 그럼에도 사용하지 아니한 연차에 대하여는 미사용 연차수당이 지급되지 않음을 알려드립니다.
     </div>
+    <div class="body-text" style="font-size:9.5pt;color:#555;margin-top:6pt">
+      ※ 본 통지서는 근로기준법 제61조 제1항에 따른 연차휴가 사용 촉구 서면입니다. 귀하가 기한 내 사용시기를 지정하지 않을 경우, 동조 제2항에 따라 회사가 사용시기를 별도 서면으로 지정할 수 있습니다.
+    </div>
     <div class="sign-area">
       <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
-      <div class="sign-right"><div class="sign-row"><span class="s-lbl">회사명</span><input class="s-in c-company" placeholder="(주)회사명"/></div><div class="sign-row sr-ceo-row"><span class="s-lbl">대표자</span><input class="s-in c-ceo" placeholder="홍대표"/> <span class="stamp">서명/인</span></div></div>
+      <div class="sign-right">
+        <div class="sign-row"><span class="s-lbl">회사명</span><input class="s-in c-company" placeholder="(주)회사명"/></div>
+        <div class="sign-row sr-ceo-row"><span class="s-lbl">대표자</span><input class="s-in c-ceo" placeholder="홍대표"/> <span class="stamp">서명/인</span></div>
+      </div>
     </div>`
 },
-
+  
 'labor-refusal': {
   title: '노무수령거부통지서',
   sub: '근로기준법 제61조 — 연차 사용촉진 후 노무수령 거부',
@@ -45,7 +56,7 @@ annual: {
           <td class="lbl">부 서</td><td class="val"><input class="di" placeholder="영업팀"/></td></tr>
       <tr><td class="lbl">지정 연차일</td><td class="val" colspan="3"><input class="di" placeholder="2025. 07. 15. (화요일)"/></td></tr>
     </table>
-    <div class="block-box" style="font-size:9pt;line-height:1.9">
+    <div class="block-box" style="font-size:11pt;line-height:1.9">
       근로기준법 제61조(연차 유급휴가의 사용 촉진)에 의거, 회사는 귀하에게 미사용 연차휴가일수를 알려주고
       그 사용시기를 정하여 회사에 통보하도록 촉구하였음에도 불구하고 아무런 통보를 하지 않아,
       부득이 회사가 귀하의 연차휴가 사용일을 지정하여 통보하였습니다.<br><br>
