@@ -613,7 +613,8 @@ window.addEventListener('beforeprint', function() {
   paper.querySelectorAll('.print-sign-spacer').forEach(function(el) { el.remove(); });
 
   var signBottom = paper.querySelector('.sign-bottom-wrap');
-  var signArea = signBottom || paper.querySelector('.sign-area');
+  if (signBottom) return;
+  var signArea = paper.querySelector('.sign-area');
   if (!signArea) return;
 
   var paperStyle = getComputedStyle(paper);
