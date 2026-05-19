@@ -103,7 +103,7 @@ roster: {
           <td class="lbl">퇴직일</td><td class="val"><input class="di"/></td></tr>
       <tr><td class="lbl">퇴직사유</td><td class="val"><input class="di"/></td>
           <td class="lbl">금품청산</td><td class="val"><input class="di"/></td></tr>
-      <tr><td class="lbl">특기사항</td><td class="val" colspan="3"><textarea class="di" placeholder="교육, 건강, 휴직 등" style="min-height:120pt"></textarea></td></tr>
+      <tr><td class="lbl">특기사항</td><td class="val" colspan="3"><textarea class="di" placeholder="교육, 건강, 휴직 등" style="min-height:250pt"></textarea></td></tr>
     </table>`
 },
 
