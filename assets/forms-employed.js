@@ -175,25 +175,25 @@ maternity: {
   notice: '',
   html: () => `
     <div class="doc-title">육 아 휴 직 원</div>
-    <table class="ft">
-      <tr><td class="lbl" style="width:70pt">성 명</td><td class="val" colspan="3"><input class="di" placeholder="홍길동"/></td></tr>
-      <tr><td class="lbl" style="width:70pt">부서 및 직급</td><td class="val"><input class="di" placeholder="인사팀 대리"/></td>
-          <td class="lbl" style="width:70pt">연 락 처</td><td class="val"><input class="di" placeholder="010-0000-0000"/></td></tr>
-      <tr><td class="lbl" style="width:70pt">생년월일</td><td class="val"><input class="di" placeholder="1990. 01. 01."/></td>
-          <td class="lbl" style="width:70pt">주 소</td><td class="val"><input class="di" placeholder="서울시 강남구 테헤란로 000"/></td></tr>
-      <tr><td class="lbl" style="width:70pt">대상자녀</td><td class="val"><input class="di" placeholder="홍아기"/></td>
-          <td class="lbl" style="width:70pt">자녀생년월일</td><td class="val"><input class="di" placeholder="2024. 06. 15."/></td></tr>
-      <tr><td class="lbl" style="width:70pt">휴직 개시일</td><td class="val"><input class="di" placeholder="2025. 01. 01."/></td>
-          <td class="lbl" style="width:70pt">휴직 종료일</td><td class="val"><input class="di" placeholder="2025. 12. 31."/></td></tr>
+    <table class="ft" style="table-layout:fixed;width:100%">
+      <colgroup><col style="width:70pt"/><col/><col style="width:80pt"/><col/></colgroup>
+      <tr><td class="lbl">성 명</td><td class="val" colspan="3"><input class="di" placeholder="홍길동"/></td></tr>
+      <tr><td class="lbl">부서 및 직급</td><td class="val"><input class="di" placeholder="인사팀 대리"/></td>
+          <td class="lbl">연 락 처</td><td class="val"><input class="di" placeholder="010-0000-0000"/></td></tr>
+      <tr><td class="lbl">생년월일</td><td class="val"><input class="di" placeholder="1990. 01. 01."/></td>
+          <td class="lbl">주 소</td><td class="val"><input class="di" placeholder="서울시 강남구 테헤란로 000"/></td></tr>
+      <tr><td class="lbl">대상자녀</td><td class="val"><input class="di" placeholder="홍아기"/></td>
+          <td class="lbl">자녀생년월일</td><td class="val"><input class="di" placeholder="2024. 06. 15."/></td></tr>
+      <tr><td class="lbl">휴직 개시일</td><td class="val"><input class="di" placeholder="2025. 01. 01."/></td>
+          <td class="lbl">휴직 종료일</td><td class="val"><input class="di" placeholder="2025. 12. 31."/></td></tr>
     </table>
     <div class="body-text" style="text-align:center">본인은 상기 사유로 <input class="ii" placeholder="12" style="width:25pt"/>개월간 육아휴직을 하고자 하오니 허가하여 주시기 바랍니다.</div>
     <div class="sign-area">
       <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
       <div class="sign-right">
-        <div class="sign-row"><span class="s-lbl">신청인</span><input class="s-in " placeholder="홍길동"/> <span class="stamp">서명/인</span></div>
+        <div class="sign-row"><span class="s-lbl">신청인</span><input class="s-in" placeholder="홍길동"/> <span class="stamp">서명/인</span></div>
         <div class="sign-row"><span class="s-lbl">회사명</span><input class="s-in c-company" placeholder="(주)회사명"/></div>
         <div class="sign-row sr-ceo-row"><span class="s-lbl">대표자</span><input class="s-in c-ceo" placeholder="홍대표"/> <span class="c-suffix">귀하</span></div>
-      </div>
       </div>
     </div>`
 },
