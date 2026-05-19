@@ -10,8 +10,8 @@ annual: {
   notice: '▶ 1년 이상 (제61조 제1항)\n  1차: 소멸 6개월 전 10일 이내 — 미사용 일수 통지 + 10일 내 사용시기 지정 촉구\n  2차: 소멸 2개월 전까지 — 미지정분 회사가 서면 지정 \n\n▶ 1년 미만 (제61조 제2항)\n  1차: 입사 1년 종료 3개월 전 10일 이내 — 미사용 일수 통지 + 10일 내 사용시기 지정 촉구\n      ※ 마지막 2일분은 소멸 1개월 전 5일 이내 별도 촉구\n  2차: 소멸 1개월 전까지 — 미지정분 회사가 서면 지정\n      ※ 마지막 2일분은 입사 1년 종료 전 10일 이내 별도 촉구\n\n⚠️ 2차 서면 없이 1차만으로는 수당 면제 효과 없음',
   html: () => `    
     <div class="doc-title">미사용 연차유급휴가일수 통지서</div>
-    <div style="margin-bottom:10pt;display:flex;align-items:center;gap:8pt;font-size:10pt">
-      <span style="font-weight:600;color:var(--accent)">근로자 유형</span>
+    <div style="margin-bottom:10pt;display:flex;align-items:center;gap:8pt;font-size:11pt">
+      <span style="font-weight:500;color:var(--accent)">근로자 유형</span>
       <select id="annual-type" class="di" style="width:auto;padding:3pt 8pt" onchange="annualTypeChange(this.value)">
         <option value="over">1년 이상 근로자</option>
         <option value="under">1년 미만 근로자</option>
