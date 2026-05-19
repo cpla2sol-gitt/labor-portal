@@ -56,11 +56,11 @@
   --a4-pad-h:   27mm;   /* 좌우 여백  — 편집기에서 조절 가능 */
 
   /* ─── 서식 내부 스타일 변수 (디자인 편집기에서 실시간 조절) ─── */
-  --form-font:     11pt;   /* (하위호환) 서식 기본 폰트 */
+  --form-font:     11.5pt;   /* (하위호환) 서식 기본 폰트 */
   --title-font:    18pt;   /* ① 제목   — .doc-title */
-  --label-font:    11pt;   /* ② 분류명 — 테이블 라벨·헤더 셀 (.lbl .lbl2 th) */
-  --content-font:  11pt;   /* ③ 내용   — 입력값·본문 (.di .ii .body-text) */
-  --etc-font:      11pt;   /* ④ 기타   — 블록박스·부제목·섹션레이블 */
+  --label-font:    11.5pt;   /* ② 분류명 — 테이블 라벨·헤더 셀 (.lbl .lbl2 th) */
+  --content-font:  11.5pt;   /* ③ 내용   — 입력값·본문 (.di .ii .body-text) */
+  --etc-font:      11.5pt;   /* ④ 기타   — 블록박스·부제목·섹션레이블 */
   --ap-height:     42pt;   /* 결재란 서명 공간 높이 */
   --cell-pad-v:    6pt;     /* 테이블 셀 세로 패딩 (셀 높이 조절) */
   --sign-w:        170pt;   /* 서명란(대표자명·사업장명) 입력칸 너비 */
