@@ -66,7 +66,7 @@ factcheck: {
   html: () => `
     <div class="doc-title">내 용 증 명</div>
     <table class="ft" style="table-layout:fixed;width:100%;margin-bottom:10pt">
-      <colgroup><col style="width:18%"/><col style="width:32%"/><col style="width:18%"/><col style="width:32%"/></colgroup>
+      <colgroup><col style="width:12%"/><col style="width:20%"/><col style="width:15%"/><col style="width:53%"/></colgroup>
       <tr><td class="lbl">일 시</td><td class="val" colspan="3"><input class="di" placeholder="2025. 01. 10."/></td></tr>
       <tr><td class="lbl">수신자</td><td class="val"><input class="di" placeholder="홍길동"/></td>
           <td class="lbl">수신자 주소</td><td class="val"><input class="di" placeholder="서울특별시 강남구 테헤란로 000"/></td></tr>
