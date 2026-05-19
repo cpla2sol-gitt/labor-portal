@@ -1129,4 +1129,5 @@ textarea.di {
 @media print {
   #editor-panel, #editor-overlay, .btn-icon-editor,
   #fe-bar, .btn-edit-toggle { display: none !important; }
+  .no-print { display: none !important; }
 }
