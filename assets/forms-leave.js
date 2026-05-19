@@ -61,7 +61,6 @@ annual: {
         <div class="sign-row"><span class="s-lbl">회사명</span><input class="s-in c-company" placeholder="(주)회사명"/></div>
         <div class="sign-row sr-ceo-row"><span class="s-lbl">대표자</span><input class="s-in c-ceo" placeholder="홍대표"/> <span class="stamp">서명/인</span></div>
       </div>
-      </div>
     </div>
     <div class="receipt">
       <div class="receipt-cut">— 노무수령거부 통지서 수령확인증 (절취선) —</div>
