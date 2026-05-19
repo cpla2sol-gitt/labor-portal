@@ -8,20 +8,7 @@ annual: {
   sub: '근로기준법 제61조',
   hasApproval: true,
   notice: '▶ 1년 이상 (제61조 제1항)\n  1차: 소멸 6개월 전 10일 이내 — 미사용 일수 통지 + 10일 내 사용시기 지정 촉구\n  2차: 소멸 2개월 전까지 — 미지정분 회사가 서면 지정 \n\n▶ 1년 미만 (제61조 제2항)\n  1차: 입사 1년 종료 3개월 전 10일 이내 — 미사용 일수 통지 + 10일 내 사용시기 지정 촉구\n      ※ 마지막 2일분은 소멸 1개월 전 5일 이내 별도 촉구\n  2차: 소멸 1개월 전까지 — 미지정분 회사가 서면 지정\n\n⚠️ 2차 서면 없이 1차만으로는 수당 면제 효과 없음',
-  html: () => `
-    <script>
-    function annualTypeChange(val) {
-      var g = document.getElementById('annual-guide');
-      var l = document.getElementById('annual-period-label');
-      if (val === 'under') {
-        g.innerHTML = '1차 촉구: 입사 1년 종료 <u>3개월 전</u> 10일 이내 서면 통지·촉구 (마지막 2일분은 <u>1개월 전</u> 5일 이내 별도 촉구) → 2차 지정: 소멸 <u>1개월 전</u>까지 회사가 서면 지정 → 수당 지급의무 면제 <span style="color:#999;font-size:9pt">(근로기준법 제61조 제2항, 2020. 3. 31. 신설)</span>';
-        l.innerHTML = '입사 1년<br>종료일';
-      } else {
-        g.innerHTML = '1차 촉구: 연차 소멸 <u>6개월 전</u> 기준 10일 이내 서면 통지·촉구 → 2차 지정: 소멸 <u>2개월 전</u>까지 회사가 서면 지정 → 수당 지급의무 면제 <span style="color:#999;font-size:9pt">(근로기준법 제61조 제1항)</span>';
-        l.innerHTML = '연차 소멸<br>예정일';
-      }
-    }
-    <\/script>
+  html: () => `    
     <div class="doc-title">미사용 연차유급휴가일수 통지서</div>
     <div style="margin-bottom:10pt;display:flex;align-items:center;gap:8pt;font-size:10pt">
       <span style="font-weight:600;color:var(--accent)">근로자 유형</span>
