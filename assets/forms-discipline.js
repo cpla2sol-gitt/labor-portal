@@ -242,7 +242,7 @@ statement: {
 
     <div class="sec-label" style="margin-bottom:5pt">○ 안건 및 요지</div>
     <table class="ft" style="table-layout:fixed;width:100%;margin-bottom:12pt">
-      <colgroup><col style="width:5%"/><col style="width:27%"/><col style="width:14%"/><col style="width:39%"/><col style="width:15%"/></colgroup>
+      <colgroup><col style="width:7%"/><col style="width:27%"/><col style="width:12%"/><col style="width:37%"/><col style="width:17%"/></colgroup>
       <thead>
         <tr><th style="width:28pt">번호</th><th>제 목</th><th style="width:80pt">신청인</th><th>심의(의결) 요지</th><th style="width:80pt">심의(의결) 결과</th></tr>
       </thead>
