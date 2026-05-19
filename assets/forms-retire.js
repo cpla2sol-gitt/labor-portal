@@ -67,16 +67,17 @@ dismiss: {
     <div class="body-text" style="font-size:11pt">
       위 사유로 취업규칙 제<input class="ii" style="width:25pt"/>조 제<input class="ii" style="width:25pt"/>항에 의거하여 해고를 통보합니다.
     </div>
-    <div class="sign-area">
-      <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
-      <div class="sign-right">
-        <div class="sign-row"><span class="s-lbl">대표</span><input class="s-in c-ceo" placeholder="홍대표"/> <span class="stamp">서명/인</span></div>
+    <div class="sign-bottom-wrap" style="margin-top:auto; break-inside:avoid; page-break-inside:avoid">
+      <div class="sign-area" style="margin-top:0">
+        <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
+        <div class="sign-right">
+          <div class="sign-row"><span class="s-lbl">대표</span><input class="s-in c-ceo" placeholder="홍대표"/> <span class="stamp">서명/인</span></div>
+        </div>
       </div>
-    </div>
-    <div class="receipt"><div class="receipt-cut">— 수 령 확 인 서 (절취선) —</div>
-    <div class="receipt-body">본인은 위 해고통보서를 <input class="ii" placeholder="2025. 01. 10." style="width:90pt"/> 수령하였음을 확인합니다.<br>수령인: <input class="ii" placeholder="홍길동" style="width:90pt"/> &nbsp;<span class="stamp">서명/인</span></div></div>`
+      <div class="receipt"><div class="receipt-cut">— 수 령 확 인 서 (절취선) —</div>
+      <div class="receipt-body">본인은 위 해고통보서를 <input class="ii" placeholder="2025. 01. 10." style="width:90pt"/> 수령하였음을 확인합니다.<br>수령인: <input class="ii" placeholder="홍길동" style="width:90pt"/> &nbsp;<span class="stamp">서명/인</span></div></div>
+    </div>`
 },
-
 
 severance: {
   title: '퇴직금 중간정산 신청서',
