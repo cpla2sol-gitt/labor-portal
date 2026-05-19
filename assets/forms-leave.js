@@ -7,7 +7,7 @@ annual: {
   title: '미사용 연차유급휴가일수 통지서',
   sub: '근로기준법 제61조',
   hasApproval: true,
-  notice: '▶ 1년 이상 (제61조 제1항)\n  1차: 소멸 6개월 전 10일 이내 — 미사용 일수 통지 + 10일 내 사용시기 지정 촉구\n  2차: 소멸 2개월 전까지 — 미지정분 회사가 서면 지정 \n\n▶ 1년 미만 (제61조 제2항)\n  1차: 입사 1년 종료 3개월 전 10일 이내 — 미사용 일수 통지 + 10일 내 사용시기 지정 촉구\n      ※ 마지막 2일분은 소멸 1개월 전 5일 이내 별도 촉구\n  2차: 소멸 1개월 전까지 — 미지정분 회사가 서면 지정\n\n⚠️ 2차 서면 없이 1차만으로는 수당 면제 효과 없음',
+  notice: '▶ 1년 이상 (제61조 제1항)\n  1차: 소멸 6개월 전 10일 이내 — 미사용 일수 통지 + 10일 내 사용시기 지정 촉구\n  2차: 소멸 2개월 전까지 — 미지정분 회사가 서면 지정 \n\n▶ 1년 미만 (제61조 제2항)\n  1차: 입사 1년 종료 3개월 전 10일 이내 — 미사용 일수 통지 + 10일 내 사용시기 지정 촉구\n      ※ 마지막 2일분은 소멸 1개월 전 5일 이내 별도 촉구\n  2차: 소멸 1개월 전까지 — 미지정분 회사가 서면 지정\n      ※ 마지막 2일분은 입사 1년 종료 전 10일 이내 별도 촉구\n\n⚠️ 2차 서면 없이 1차만으로는 수당 면제 효과 없음',
   html: () => `    
     <div class="doc-title">미사용 연차유급휴가일수 통지서</div>
     <div style="margin-bottom:10pt;display:flex;align-items:center;gap:8pt;font-size:10pt">
@@ -18,22 +18,28 @@ annual: {
       </select>
     </div>
     <div id="annual-guide" class="block-box" style="font-size:9.5pt;line-height:1.8;margin-bottom:10pt;color:#444">
-      1차 촉구: 연차 소멸 <u>6개월 전</u> 기준 10일 이내 서면 통지·촉구 → 2차 지정: 소멸 <u>2개월 전</u>까지 회사가 서면 지정 → 수당 지급의무 면제 <span style="color:#999;font-size:9pt">(근로기준법 제61조 제1항)</span>
+      1차 촉구: 연차 소멸 <u>6개월 전</u> 기준 10일 이내 서면 통지·촉구 → 2차 지정: 소멸 <u>2개월 전</u>까지 회사가 서면 지정 → 수당 지급의무 면제 <span style="color:#999;font-size:9pt"></span>
     </div>
-    <table class="ft" style="table-layout:fixed;width:100%;margin-bottom:10pt">
+    <table class="ft" style="table-layout:fixed;width:100%;margin-bottom:0">
+      <colgroup>
+        <col style="width:20%"/><col style="width:30%"/>
+        <col style="width:20%"/><col style="width:30%"/>
+      </colgroup>
+      <tr><td class="lbl">성 명</td><td class="val"><input class="di" placeholder="홍길동"/></td>
+          <td class="lbl">소 속</td><td class="val"><input class="di" placeholder="인사팀"/></td></tr>
+      <tr><td class="lbl">직 위</td><td class="val"><input class="di" placeholder="대리"/></td>
+          <td class="lbl">주민번호</td><td class="val"><input class="di" placeholder="900101-*******"/></td></tr>
+      <tr><td class="lbl">입사일자</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td>
+          <td class="lbl" id="annual-period-label">연차 소멸<br>예정일</td><td class="val"><input class="di" placeholder="2025. 12. 31."/></td></tr>
+      <tr><td class="lbl">발생 기준</td><td class="val" colspan="3">
+        <select class="di"><option value="">— 선택 —</option><option>입사일 기준</option><option>회계연도 기준 (1월 1일)</option></select>
+      </td></tr>
+    </table>
+    <table class="ft" style="table-layout:fixed;width:100%;margin-bottom:10pt;border-top:none">
       <colgroup>
         <col style="width:22%"/><col style="width:22%"/>
         <col style="width:18.6%"/><col style="width:18.6%"/><col style="width:18.6%"/>
       </colgroup>
-      <tr><td class="lbl">성 명</td><td class="val"><input class="di" placeholder="홍길동"/></td>
-          <td class="lbl" colspan="2">소 속</td><td class="val"><input class="di" placeholder="인사팀"/></td></tr>
-      <tr><td class="lbl">직 위</td><td class="val"><input class="di" placeholder="대리"/></td>
-          <td class="lbl" colspan="2">주민번호</td><td class="val"><input class="di" placeholder="900101-*******"/></td></tr>
-      <tr><td class="lbl">입사일자</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td>
-          <td class="lbl" id="annual-period-label" colspan="2">연차 소멸<br>예정일</td><td class="val"><input class="di" placeholder="2025. 12. 31."/></td></tr>
-      <tr><td class="lbl">발생 기준</td><td class="val" colspan="4">
-        <select class="di"><option value="">— 선택 —</option><option>입사일 기준</option><option>회계연도 기준 (1월 1일)</option></select>
-      </td></tr>
       <tr><th style="white-space:pre-line">연차 발생&#10;대상기간</th><th style="white-space:pre-line">연차 사용&#10;대상기간</th>
           <th>발생(A)</th><th>사용(B)</th><th>미사용(A-B)</th></tr>
       <tr><td class="val" style="text-align:center"><textarea class="di" rows="2" style="resize:none;text-align:center" placeholder="2024.01.01~12.31"></textarea></td>
@@ -47,7 +53,7 @@ annual: {
       2. <input class="ii" placeholder="2025. 07. 01." style="width:90pt"/>까지 미사용 연차유급휴가일수의 사용시기를 지정하여 서면으로 통보하여 주실 것을 촉구드립니다.<br>
       3. 동 기한 내에 사용시기 지정통보가 제출되지 아니한 경우 회사가 임의 지정할 예정이며, 그럼에도 사용하지 아니한 연차에 대하여는 미사용 연차수당이 지급되지 않음을 알려드립니다.
     </div>
-    <div class="body-text" style="font-size:9.5pt;color:#555;margin-top:6pt">
+    <div class="body-text no-print" style="font-size:10pt;color:#bbb;margin-top:6pt">
       ※ 본 통지서는 근로기준법 제61조에 따른 연차휴가 사용 촉구 서면(1차)입니다. 수당 지급의무 면제를 위해서는 이후 2차 회사 지정 서면이 반드시 필요합니다.
     </div>
     <div class="sign-area">
