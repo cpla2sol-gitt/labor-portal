@@ -12,12 +12,12 @@ warning: {
     <div class="doc-title">경 고 장</div>
     <div class="body-text">소 속: <input class="ii" placeholder="인사팀" style="width:140pt"/> &nbsp;&nbsp; 성 명: <input class="ii" placeholder="홍길동" style="width:100pt"/></div>
     <div style="margin:8pt 0;font-size:10.5pt;line-height:1.9">
-      귀하에게 관련된 아래 사항은 직원으로서 시정할 사항이므로 각성을 촉구하며, 차후 이러한 일이 발생하지 않도록 엄중 경고합니다.
-      또다시 이와 비슷한 복무규율 위반 사례가 적발될 시에는 회사 규정에 따라 징계 조치될 수 있음을 양지하시기 바랍니다.
+      아래 사항은 직원으로서 시정할 사항이므로 각성을 촉구하며, 차후 이러한 일이 발생하지 않도록 귀하에게 엄중 경고합니다.
+      이와 유사한 복무규율 위반 사례가 반복 적발될 시에는 회사 규정에 따라 징계 조치될 수 있음을 양지하시기 바랍니다.
     </div>
     <div class="sec-label">※ 경고 내용</div>
-    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:90pt;font-size:9.5pt;line-height:1.75" placeholder="경고 사유를 구체적으로 기재합니다.&#10;예) 귀하는 2025. 01. 05.부터 2025. 01. 10.까지 총 6회에 걸쳐 지각하였으며..."></textarea>
-    <div style="font-size:9pt;color:var(--muted);margin-top:5pt">□ 사실확인서 제출 포함</div>
+    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:250pt;font-size:9.5pt;line-height:1.75" placeholder="경고 사유를 구체적으로 기재합니다.&#10;예) 귀하는 2025. 01. 05.부터 2025. 01. 10.까지 총 6회에 걸쳐 지각하였으며..."></textarea>
+    <div style="font-size:10.5pt;color:var(--muted);margin-top:5pt">□ 사실확인서 제출 포함</div>
     <div class="sign-bottom-wrap" style="margin-top:auto; break-inside:avoid; page-break-inside:avoid">
       <div class="sign-area" style="margin-top:0">
         <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
