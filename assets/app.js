@@ -612,7 +612,8 @@ window.addEventListener('beforeprint', function() {
   /* 기존 spacer 제거 */
   paper.querySelectorAll('.print-sign-spacer').forEach(function(el) { el.remove(); });
 
-  var signArea = paper.querySelector('.sign-area');
+  var signBottom = paper.querySelector('.sign-bottom-wrap');
+  var signArea = signBottom || paper.querySelector('.sign-area');
   if (!signArea) return;
 
   var paperStyle = getComputedStyle(paper);
