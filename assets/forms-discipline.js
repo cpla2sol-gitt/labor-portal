@@ -66,7 +66,7 @@ factcheck: {
   html: () => `
     <div class="doc-title">내 용 증 명</div>
     <table class="ft" style="table-layout:fixed;width:100%;margin-bottom:10pt">
-      <colgroup><col style="width:18%"/><col style="width:32%"/><col style="width:18%"/><col style="width:32%"/></colgroup>
+      <colgroup><col style="width:15%"/><col style="width:17%"/><col style="width:15%"/><col style="width:53%"/></colgroup>
       <tr><td class="lbl">일 시</td><td class="val" colspan="3"><input class="di" placeholder="2025. 01. 10."/></td></tr>
       <tr><td class="lbl">수신자</td><td class="val"><input class="di" placeholder="홍길동"/></td>
           <td class="lbl">수신자 주소</td><td class="val"><textarea class="di" rows="2" style="resize:none" placeholder="서울특별시 강남구 테헤란로 000"></textarea></td></tr>
@@ -74,7 +74,7 @@ factcheck: {
           <td class="lbl">발신자 주소</td><td class="val"><textarea class="di" rows="2" style="resize:none" placeholder="서울특별시 강남구 테헤란로 000"></textarea></td></tr>
       <tr><td class="lbl">제 목</td><td class="val" colspan="3"><input class="di" placeholder="무단결근에 따른 원직복귀명령 통보"/></td></tr>
     </table>
-    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:140pt;font-size:9.5pt;line-height:1.9" placeholder="1. 귀하의 무궁한 발전을 기원합니다.&#10;2. 귀하는 2025. 01. 05.부터 무단결근을 함으로써 근로제공의 의무를 불이행하고 있습니다.&#10;3. 귀하는 즉시 원직에 복귀하여 성실하게 근로를 제공하시길 바랍니다.&#10;4. 만약 무단결근이 계속된다면 회사의 규정에 따라 당연퇴직, 징계 등의 조치 및 손해배상청구를 추진할 수 있음을 양지하시기 바랍니다."></textarea>
+    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:250pt;font-size:9.5pt;line-height:1.9" placeholder="1. 귀하의 무궁한 발전을 기원합니다.&#10;2. 귀하는 2025. 01. 05.부터 무단결근을 함으로써 근로제공의 의무를 불이행하고 있습니다.&#10;3. 귀하는 즉시 원직에 복귀하여 성실하게 근로를 제공하시길 바랍니다.&#10;4. 만약 무단결근이 계속된다면 회사의 규정에 따라 당연퇴직, 징계 등의 조치 및 손해배상청구를 추진할 수 있음을 양지하시기 바랍니다."></textarea>
     <div class="sign-area">
       <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
       <div class="sign-right">
