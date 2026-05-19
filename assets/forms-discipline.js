@@ -11,7 +11,7 @@ warning: {
   html: () => `
     <div class="doc-title">경 고 장</div>
     <div class="body-text">소 속: <input class="ii" placeholder="인사팀" style="width:140pt"/> &nbsp;&nbsp; 성 명: <input class="ii" placeholder="홍길동" style="width:100pt"/></div>
-    <div style="margin:8pt 0;font-size:9.5pt;line-height:1.9">
+    <div style="margin:8pt 0;font-size:10.5pt;line-height:1.9">
       귀하에게 관련된 아래 사항은 직원으로서 시정할 사항이므로 각성을 촉구하며, 차후 이러한 일이 발생하지 않도록 엄중 경고합니다.
       또다시 이와 비슷한 복무규율 위반 사례가 적발될 시에는 회사 규정에 따라 징계 조치될 수 있음을 양지하시기 바랍니다.
     </div>
@@ -121,11 +121,11 @@ summons: {
       <tr><td class="lbl">직 위</td><td class="val"><input class="di" placeholder="대리"/></td>
           <td class="lbl">담당직무</td><td class="val"><input class="di" placeholder="영업관리"/></td></tr>
       <tr><td class="lbl">주 소</td><td class="val" colspan="3"><input class="di" placeholder="서울특별시 강남구 테헤란로 000"/></td></tr>
-      <tr><td class="lbl">출석사유</td><td class="val" colspan="3"><textarea class="di" placeholder="징계위원회 출석 (취업규칙 위반 관련 소명 기회 부여)"></textarea></td></tr>
-      <tr><td class="lbl">출석일시</td><td class="val"><input class="di" placeholder="2025. 01. 20.  오후 2시"/></td>
-          <td class="lbl">출석장소</td><td class="val"><input class="di" placeholder="본사 대회의실"/></td></tr>
+      <tr><td class="lbl">출석 사유</td><td class="val" colspan="3"><textarea class="di" placeholder="징계위원회 출석 (취업규칙 위반 관련 소명 기회 부여)"></textarea></td></tr>
+      <tr><td class="lbl">출석 일시</td><td class="val"><input class="di" placeholder="2025. 01. 20.  오후 2시"/></td>
+          <td class="lbl">출석 장소</td><td class="val"><input class="di" placeholder="본사 대회의실"/></td></tr>
     </table>
-    <div class="block-box" style="font-size:9pt;line-height:1.85">
+    <div class="block-box" style="font-size:10.5pt;line-height:1.85">
       <strong>유의사항</strong><br>
       1. 진술을 위한 출석을 원하지 않을 때에는 진술권 포기서를, 진술을 할 경우에는 진술서를 즉시 제출하십시오.<br>
       2. 서면진술을 하고자 할 때에는 인사위원회 개최 전일까지 서면진술서를 제출하십시오.<br>
@@ -146,47 +146,47 @@ statement: {
   html: () => `
     <div class="doc-title">진술권포기서 / 진술확인서</div>
 
-    <div class="sec-label" style="font-size:10pt;margin-bottom:6pt">▣ 진술권 포기서</div>
-    <table class="ft" style="margin-bottom:8pt">
+    <div class="sec-label" style="font-size:10.5pt;margin-bottom:10pt">▣ 진술권 포기서</div>
+    <table class="ft" style="margin-bottom:10pt">
       <tr><th colspan="4" style="background:#fdf0f0;color:#7a1a1a">진술권 포기 — 인적사항</th></tr>
       <tr><td class="lbl">성 명</td><td class="val"><input class="di" placeholder="홍길동"/></td>
           <td class="lbl">직 급</td><td class="val"><input class="di" placeholder="대리"/></td></tr>
       <tr><td class="lbl">소 속</td><td class="val"><input class="di" placeholder="영업팀"/></td>
           <td class="lbl">주 소</td><td class="val"><input class="di" placeholder="서울시 강남구 테헤란로 000"/></td></tr>
     </table>
-    <div class="block-box" style="font-size:9.5pt;text-align:center;padding:10pt">
+    <div class="block-box" style="font-size:10.5pt;text-align:center;padding:10pt">
       본인은 인사위원회에 출석하여 진술하는 것을 <strong>포기</strong>합니다.
     </div>
-    <div style="text-align:right;margin:8pt 0 6pt;font-size:9.5pt">
+    <div style="text-align:right;margin:8pt 0 6pt;font-size:10.5pt">
       <input class="ii" placeholder="20" style="width:30pt"/>년
       <input class="ii" placeholder="01" style="width:22pt"/>월
       <input class="ii" placeholder="01" style="width:22pt"/>일 &nbsp;&nbsp;
       성 명: <input class="ii" placeholder="홍길동" style="width:90pt"/> &nbsp;<span class="stamp">서명/인</span>
     </div>
-    <div style="text-align:right;font-size:9pt;color:var(--muted);margin-bottom:16pt">
+    <div style="text-align:right;font-size:10.5pt;color:var(--muted);margin-bottom:30pt">
       <input class="s-in c-company" placeholder="(주)회사명"/> 인사위원회 위원장 귀하
     </div>
 
     <div style="border-top:2px dashed var(--border);margin:14pt 0;"></div>
 
-    <div class="sec-label" style="font-size:10pt;margin-bottom:6pt">▣ 출석 진술확인서</div>
-    <table class="ft" style="margin-bottom:8pt">
+    <div class="sec-label" style="font-size:10.5pt;margin-bottom:10pt">▣ 출석 진술확인서</div>
+    <table class="ft" style="margin-bottom:10pt">
       <tr><th colspan="4" style="background:#f0f5f0;color:#1a4a2a">진술 출석 — 인적사항</th></tr>
       <tr><td class="lbl">성 명</td><td class="val"><input class="di" placeholder="홍길동"/></td>
           <td class="lbl">직 급</td><td class="val"><input class="di" placeholder="대리"/></td></tr>
       <tr><td class="lbl">소 속</td><td class="val"><input class="di" placeholder="영업팀"/></td>
           <td class="lbl">주 소</td><td class="val"><input class="di" placeholder="서울시 강남구 테헤란로 000"/></td></tr>
     </table>
-    <div class="block-box" style="font-size:9.5pt;text-align:center;padding:10pt">
+    <div class="block-box" style="font-size:10.5pt;text-align:center;padding:10pt">
       본인은 인사위원회에 <strong>출석하여 진술</strong>하겠습니다.
     </div>
-    <div style="text-align:right;margin:8pt 0 6pt;font-size:9.5pt">
+    <div style="text-align:right;margin:8pt 0 6pt;font-size:10.5pt">
       <input class="ii" placeholder="20" style="width:30pt"/>년
       <input class="ii" placeholder="01" style="width:22pt"/>월
       <input class="ii" placeholder="01" style="width:22pt"/>일 &nbsp;&nbsp;
       성 명: <input class="ii" placeholder="홍길동" style="width:90pt"/> &nbsp;<span class="stamp">서명/인</span>
     </div>
-    <div style="text-align:right;font-size:9pt;color:var(--muted)">
+    <div style="text-align:right;font-size:10.5pt;color:var(--muted)">
       <input class="s-in c-company" placeholder="(주)회사명"/> 인사위원회 위원장 귀하
     </div>`
 },
@@ -203,7 +203,7 @@ statement: {
           <td class="lbl">장 소</td><td class="val"><input class="di" placeholder="본사 대회의실"/></td></tr>
       <tr><td class="lbl">안 건</td><td class="val" colspan="3"><input class="di" placeholder="홍길동 대리 징계의 건 (취업규칙 제__조 위반)"/></td></tr>
       <tr><td class="lbl">참석자</td><td class="val" colspan="3">
-        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;font-size:9pt">
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;font-size:9.5">
           <div style="border-right:1px solid var(--border-dk);padding:3pt 5pt">
             위원장: <input class="ii" placeholder="홍대표" style="width:70pt"/>
           </div>
@@ -218,7 +218,7 @@ statement: {
     </table>
 
     <div class="sec-label">■ 회의 내용</div>
-    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:6pt 8pt;min-height:160pt;font-size:9.5pt;line-height:1.9"
+    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:6pt 8pt;min-height:250pt;font-size:10.5pt;line-height:1.9"
       placeholder="1. 안건 상정 및 심의 대상자 인적사항 확인&#10;&#10;2. 징계 사유 검토&#10;   - 위반 행위 일시 및 내용:&#10;   - 관련 취업규칙 조항:&#10;&#10;3. 당사자 소명 내용 (또는 소명 포기 여부):&#10;&#10;4. 위원 의견 교환 및 심의&#10;&#10;5. 의결 결과:"></textarea>
 
     <div class="sign-area">
@@ -249,7 +249,7 @@ statement: {
           <td class="val"><input class="di" placeholder="인사팀"/></td>
           <td class="val"><textarea class="di" style="min-height:50pt;font-size:8.5pt" placeholder="취업규칙 제__조 위반 — 무단결근 6일 및 복무기강 위반으로 해고 상당"></textarea></td>
           <td class="val">
-            <select class="di" style="font-size:8.5pt">
+            <select class="di" style="font-size:10.5pt">
               <option value="">— 선택 —</option>
               <option>해 고</option>
               <option>정 직</option>
@@ -270,7 +270,7 @@ statement: {
       </tbody>
     </table>
 
-    <div class="block-box" style="font-size:9pt;text-align:center">
+    <div class="block-box" style="font-size:11.5pt;text-align:center">
       위의 사항에 대하여 심의(의결)함.
     </div>
 
@@ -302,7 +302,7 @@ disciplinary: {
     <div class="sec-label">■ 의결주문</div>
     <input class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:4pt 7pt;margin-bottom:8pt" placeholder="예) 해고 (2025. 02. 01.부)"/>
     <div class="sec-label">■ 징계사유</div>
-    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:100pt;font-size:9.5pt;line-height:1.75" placeholder="징계사유를 구체적으로 기재합니다."></textarea>
+    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:250pt;font-size:9.5pt;line-height:1.75" placeholder="징계사유를 구체적으로 기재합니다."></textarea>
     <div class="sign-area">
       <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
       <div>
