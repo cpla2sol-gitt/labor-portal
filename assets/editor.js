@@ -35,11 +35,11 @@ const DEFAULT_DESIGN = {
   textColor: '#1a1a18',   /* 서식 본문 텍스트 색상 */
 
   /* ── 서식 크기 ── */
-  formFont:    11,          /* (하위호환) */
+  formFont:    11.5,          /* (하위호환) */
   titleFont:   18,          /* ① 제목   — .doc-title (pt) */
-  labelFont:   11,          /* ② 분류명 — 테이블 라벨·헤더 셀 (pt) */
-  contentFont: 11,          /* ③ 내용   — 입력값·본문 (pt) */
-  etcFont:     11,          /* ④ 기타   — 블록박스·부제목 (pt) */
+  labelFont:   11.5,          /* ② 분류명 — 테이블 라벨·헤더 셀 (pt) */
+  contentFont: 11.5,          /* ③ 내용   — 입력값·본문 (pt) */
+  etcFont:     11.5,          /* ④ 기타   — 블록박스·부제목 (pt) */
   cellPadV:  5,            /* 테이블 셀 상하 패딩 (pt) — 값이 클수록 셀이 높아짐 */
   signW:     170,          /* 서명란 입력칸 너비 (pt) */
   docBorder: 2,            /* 서식 제목 하단 구분선 두께 (pt) */
