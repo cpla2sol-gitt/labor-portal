@@ -10,13 +10,35 @@ annual: {
   notice: '🔔 이 서식은 [1차 촉구용]입니다 — 근로기준법 제61조\n\n▶ 1년 이상 근로자 (제61조 제1항)\n  • 1차 촉구: 연차 소멸 6개월 전까지\n    → 미사용 일수 서면 통지 + 10일 내 사용시기 지정 촉구\n  • 2차 지정: 연차 소멸 2개월 전까지\n    → 근로자 미지정분에 대해 회사가 사용시기 서면 지정 (별도 서식 필요)\n  • 효과: 위 2단계 완료 시 미사용 연차수당 지급 의무 면제\n\n▶ 1년 미만 근로자 (제61조 제2항)\n  • 1차 촉구: 최초 연차 발생일로부터 3개월 이내\n    → 미사용 일수 서면 통지 + 5일 내 사용시기 지정 촉구\n  • 2차 지정: 연차 소멸 1개월 전까지\n    → 근로자 미지정분에 대해 회사가 사용시기 서면 지정 (별도 서식 필요)\n  • 효과: 위 2단계 완료 시 미사용 연차수당 지급 의무 면제\n\n⚠️ 주의: 2단계(회사 지정) 서면 없이 1단계만으로는 면제 효과 없음',
   html: () => `
     <div class="doc-title">미사용 연차유급휴가일수 통지서</div>
+
+    <div style="margin-bottom:10pt;display:flex;align-items:center;gap:8pt;font-size:10pt">
+      <span style="font-weight:600;color:var(--accent)">근로자 유형</span>
+      <select id="annual-type" class="di" style="width:auto;padding:3pt 8pt"
+        onchange="
+          var t=this.value;
+          document.getElementById('annual-guide').innerHTML = t==='over'
+            ? '1차 촉구: 연차 소멸 <u>6개월 전</u> 기준 10일 이내 서면 통지·촉구 → 2차 지정: 소멸 <u>2개월 전</u>까지 회사가 서면 지정 → 수당 지급의무 면제 <span style=\'color:#999;font-size:9pt\'>(근로기준법 제61조 제1항)</span>'
+            : '1차 촉구: 입사 1년 종료 <u>3개월 전</u> 10일 이내 서면 통지·촉구 (마지막 2일분은 <u>1개월 전</u> 5일 이내 별도 촉구) → 2차 지정: 소멸 <u>1개월 전</u>까지 회사가 서면 지정 → 수당 지급의무 면제 <span style=\'color:#999;font-size:9pt\'>(근로기준법 제61조 제2항, 2020. 3. 31. 신설)</span>';
+          document.getElementById('annual-period-label').innerHTML = t==='over'
+            ? '연차 소멸예정일' : '입사 1년 종료일';
+        ">
+        <option value="over">1년 이상 근로자</option>
+        <option value="under">1년 미만 근로자</option>
+      </select>
+    </div>
+
+    <div id="annual-guide" class="block-box"
+      style="font-size:9.5pt;line-height:1.8;margin-bottom:10pt;color:#444">
+      1차 촉구: 연차 소멸 <u>6개월 전</u> 기준 10일 이내 서면 통지·촉구 → 2차 지정: 소멸 <u>2개월 전</u>까지 회사가 서면 지정 → 수당 지급의무 면제 <span style="color:#999;font-size:9pt">(근로기준법 제61조 제1항)</span>
+    </div>
+
     <table class="ft" style="margin-bottom:10pt">
       <tr><td class="lbl">성 명</td><td class="val"><input class="di" placeholder="홍길동"/></td>
           <td class="lbl">소 속</td><td class="val"><input class="di" placeholder="인사팀"/></td></tr>
       <tr><td class="lbl">직 위</td><td class="val"><input class="di" placeholder="대리"/></td>
           <td class="lbl">주민번호</td><td class="val"><input class="di" placeholder="900101-*******"/></td></tr>
       <tr><td class="lbl">입사일자</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td>
-          <td class="lbl">연차 소멸 예정일</td><td class="val"><input class="di" placeholder="2025. 12. 31."/></td></tr>
+          <td class="lbl" id="annual-period-label">연차 소멸예정일</td><td class="val"><input class="di" placeholder="2025. 12. 31."/></td></tr>
       <tr><td class="lbl">발생 기준</td><td class="val" colspan="3">
         <select class="di"><option value="">— 선택 —</option><option>입사일 기준</option><option>회계연도 기준 (1월 1일)</option></select>
       </td></tr>
@@ -32,8 +54,8 @@ annual: {
       2. <input class="ii" placeholder="2025. 07. 01." style="width:90pt"/>까지 미사용 연차유급휴가일수의 사용시기를 지정하여 서면으로 통보하여 주실 것을 촉구드립니다.<br>
       3. 동 기한 내에 사용시기 지정통보가 제출되지 아니한 경우 회사가 임의 지정할 예정이며, 그럼에도 사용하지 아니한 연차에 대하여는 미사용 연차수당이 지급되지 않음을 알려드립니다.
     </div>
-    <div class="body-text" style="font-size:10pt;color:#555;margin-top:6pt">
-      ※ 본 통지서는 근로기준법 제61조 제1항에 따른 연차휴가 사용 촉구 서면입니다. 귀하가 기한 내 사용시기를 지정하지 않을 경우, 동조 제2항에 따라 회사가 사용시기를 별도 서면으로 지정할 수 있습니다.
+    <div class="body-text" style="font-size:9.5pt;color:#555;margin-top:6pt">
+      ※ 본 통지서는 근로기준법 제61조에 따른 연차휴가 사용 촉구 서면(1차)입니다. 수당 지급의무 면제를 위해서는 이후 2차 회사 지정 서면이 반드시 필요합니다.
     </div>
     <div class="sign-area">
       <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
