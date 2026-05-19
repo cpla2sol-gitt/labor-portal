@@ -16,7 +16,7 @@ warning: {
       이와 유사한 복무규율 위반 사례가 반복 적발될 시에는 회사 규정에 따라 징계 조치될 수 있음을 양지하시기 바랍니다.
     </div>
     <div class="sec-label">※ 경고 내용</div>
-    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:250pt;font-size:9.5pt;line-height:1.75" placeholder="경고 사유를 구체적으로 기재합니다.&#10;예) 귀하는 2025. 01. 05.부터 2025. 01. 10.까지 총 6회에 걸쳐 지각하였으며..."></textarea>
+    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:200pt;font-size:9.5pt;line-height:1.75" placeholder="경고 사유를 구체적으로 기재합니다.&#10;예) 귀하는 2025. 01. 05.부터 2025. 01. 10.까지 총 6회에 걸쳐 지각하였으며..."></textarea>
     <div style="font-size:10.5pt;color:var(--muted);margin-top:5pt">□ 사실확인서 제출 포함</div>
     <div class="sign-bottom-wrap" style="margin-top:auto; break-inside:avoid; page-break-inside:avoid">
       <div class="sign-area" style="margin-top:0">
@@ -65,7 +65,8 @@ factcheck: {
   notice: '',
   html: () => `
     <div class="doc-title">내 용 증 명</div>
-    <table class="ft" style="margin-bottom:10pt">
+    <table class="ft" style="table-layout:fixed;width:100%;margin-bottom:10pt">
+      <colgroup><col style="width:18%"/><col style="width:32%"/><col style="width:18%"/><col style="width:32%"/></colgroup>
       <tr><td class="lbl">일 시</td><td class="val" colspan="3"><input class="di" placeholder="2025. 01. 10."/></td></tr>
       <tr><td class="lbl">수신자</td><td class="val"><input class="di" placeholder="홍길동"/></td>
           <td class="lbl">수신자 주소</td><td class="val"><input class="di" placeholder="서울특별시 강남구 테헤란로 000"/></td></tr>
@@ -141,7 +142,7 @@ summons: {
 
 
 statement: {
-  title: '진술권포기서 / 진술서',
+  title: '진술권 포기서 / 진술서',
   sub: '인사위원회 출석 관련 — 징계절차 구비서류',
   hasApproval: false, 
   notice: '※ 본 서식은 진술권포기서와 출석 진술확인서를 한 장에 구성합니다. 해당 항목에만 서명하여 제출합니다.',
@@ -240,7 +241,8 @@ statement: {
     <div class="doc-title">인사위원회 심의(의결) 결과서</div>
 
     <div class="sec-label" style="margin-bottom:5pt">○ 안건 및 요지</div>
-    <table class="ft" style="margin-bottom:12pt">
+    <table class="ft" style="table-layout:fixed;width:100%;margin-bottom:12pt">
+      <colgroup><col style="width:8%"/><col style="width:24%"/><col style="width:14%"/><col style="width:36%"/><col style="width:18%"/></colgroup>
       <thead>
         <tr><th style="width:28pt">번호</th><th>제 목</th><th style="width:80pt">신청인</th><th>심의(의결) 요지</th><th style="width:80pt">심의(의결) 결과</th></tr>
       </thead>
