@@ -455,14 +455,14 @@ header {
 
 
 
-.ap-table { border-collapse: collapse; font-size: 12pt; }
+.ap-table { border-collapse: collapse; font-size: 11.5pt; }
 .ap-table td { border: 1px solid #888; padding: 0; text-align: center; }
 
 /* '결재' 레이블 셀 */
 .ap-label {
   background: var(--ap-bg);
   font-weight: 500;
-  font-size: 12pt;    /* "결재" 글자 크기 */
+  font-size: 11.5pt;    /* "결재" 글자 크기 */
   vertical-align: middle;
   width: 16pt;          /* "결재" 셀 너비 */
   padding: 4px 3px;
@@ -476,7 +476,7 @@ header {
 /* 각 직급 셀 */
 .ap-box { width: 50pt; vertical-align: top; } /* 결재 칸 너비 — 숫자로 조절 */
 .ap-box-name {
-  font-size: 12pt;  /* 직급명 글자 크기 */
+  font-size: 11.5pt;  /* 직급명 글자 크기 */
   padding: 3px 0;
   border-bottom: 1px solid #888;
   color: #555;
