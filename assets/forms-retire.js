@@ -22,7 +22,7 @@ resign: {
         <input class="di" placeholder="상세 사유"/>
       </td></tr>
       <tr><td class="lbl">사직 후 주소</td><td class="val" colspan="3"><input class="di" placeholder="서울특별시 강남구 테헤란로 000"/></td></tr>
-      <tr><td class="lbl">긴급연락처</td><td class="val"><input class="di" placeholder="010-0000-0000"/></td>
+      <tr><td class="lbl">긴급 연락처</td><td class="val"><input class="di" placeholder="010-0000-0000"/></td>
           <td class="lbl">e-mail</td><td class="val"><input class="di" placeholder="hong@email.com"/></td></tr>
     </table>
     <div class="block-box" style="font-size:11pt;margin-top:8pt">
@@ -63,7 +63,7 @@ dismiss: {
           <td class="lbl">예고수당</td><td class="val" colspan="2"><input class="di" placeholder="□지급 (금      원)   □30일 전 예고로 불요"/></td></tr>
     </table>
     <div class="sec-label">■ 해고 사유 (구체적 사실 적시)</div>
-    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:80pt;font-size:9.5pt;line-height:1.75" placeholder="아래와 같은 행위로 인하여 당사 취업규칙 제__조 제__항에 따라 귀하를 해고합니다.&#10;&#10;1. 2025. 01. 05.부터 2025. 01. 10.까지 6일간 정당한 사유 없이 무단결근..."></textarea>
+    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:100pt;font-size:9.5pt;line-height:1.75" placeholder="아래와 같은 행위로 인하여 당사 취업규칙 제__조 제__항에 따라 귀하를 해고합니다.&#10;&#10;1. 2025. 01. 05.부터 2025. 01. 10.까지 6일간 정당한 사유 없이 무단결근..."></textarea>
     <div class="body-text" style="font-size:11pt">
       위 사유로 취업규칙 제<input class="ii" style="width:25pt"/>조 제<input class="ii" style="width:25pt"/>항에 의거하여 해고를 통보합니다.
     </div>
@@ -96,10 +96,10 @@ severance: {
           <option>무주택자 주택 구입</option><option>전세금·보증금 부담</option>
           <option>본인·가족 6개월 이상 요양</option><option>파산선고</option>
           <option>개인회생절차 개시 결정</option><option>임금피크제 실시</option></select>
-        <textarea class="di" placeholder="상세 사유 기재" style="min-height:36pt"></textarea>
+        <textarea class="di" placeholder="상세 사유 기재" style="min-height:100pt"></textarea>
       </td></tr>
     </table>
-    <div class="body-text" style="text-align:center;font-size:11pt">근로자퇴직급여보장법 제8조에 의거 위와 같이 퇴직금 중간정산을 신청하오니 수락하여 주시기 바랍니다.</div>
+    <div class="body-text" style="text-align:center;font-size:11pt">근로자퇴직급여보장법에 의거 위와 같이 퇴직금 중간정산을 신청하오니 수락하여 주시기 바랍니다.</div>
     <div class="sign-area">
       <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
       <div class="sign-right">
@@ -169,11 +169,11 @@ handover: {
       </td></tr>
     </table>
     <div class="sec-label">■ 1. 인수인계 내용</div>
-    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:70pt;font-size:9.5pt;line-height:1.75" placeholder="담당 업무 목록 및 현황"></textarea>
+    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:100pt;font-size:9.5pt;line-height:1.75" placeholder="담당 업무 목록 및 현황"></textarea>
     <div class="sec-label">■ 2. 인수인계 파일 및 문서</div>
-    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:50pt;font-size:9.5pt;line-height:1.75" placeholder="폴더 경로, 파일명, 보관 위치 등"></textarea>
+    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:100pt;font-size:9.5pt;line-height:1.75" placeholder="폴더 경로, 파일명, 보관 위치 등"></textarea>
     <div class="sec-label">■ 3. 기타</div>
-    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:40pt;font-size:9.5pt;line-height:1.75" placeholder="인수인계 관련 유의사항"></textarea>
+    <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:50pt;font-size:9.5pt;line-height:1.75" placeholder="인수인계 관련 유의사항"></textarea>
     <div class="sign-area">
       <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
       <div class="sign-right">
