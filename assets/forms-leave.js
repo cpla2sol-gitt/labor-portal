@@ -16,7 +16,7 @@ annual: {
       <tr><td class="lbl">직 위</td><td class="val"><input class="di" placeholder="대리"/></td>
           <td class="lbl">주민번호</td><td class="val"><input class="di" placeholder="900101-*******"/></td></tr>
       <tr><td class="lbl">입사일자</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td>
-          <td class="lbl">연차\n소멸 예정일</td><td class="val"><input class="di" placeholder="2025. 12. 31."/></td></tr>
+          <td class="lbl">연차 소멸 예정일</td><td class="val"><input class="di" placeholder="2025. 12. 31."/></td></tr>
       <tr><td class="lbl">발생 기준</td><td class="val" colspan="3">
         <select class="di"><option value="">— 선택 —</option><option>입사일 기준</option><option>회계연도 기준 (1월 1일)</option></select>
       </td></tr>
