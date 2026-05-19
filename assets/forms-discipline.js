@@ -18,15 +18,17 @@ warning: {
     <div class="sec-label">※ 경고 내용</div>
     <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:90pt;font-size:9.5pt;line-height:1.75" placeholder="경고 사유를 구체적으로 기재합니다.&#10;예) 귀하는 2025. 01. 05.부터 2025. 01. 10.까지 총 6회에 걸쳐 지각하였으며..."></textarea>
     <div style="font-size:9pt;color:var(--muted);margin-top:5pt">□ 사실확인서 제출 포함</div>
-    <div class="sign-area">
-      <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
-      <div class="sign-right">
-        <div class="sign-row"><span class="s-lbl">회사명</span><input class="s-in c-company" placeholder="(주)회사명"/></div>
-        <div class="sign-row sr-ceo-row"><span class="s-lbl">대표자</span><input class="s-in c-ceo" placeholder="홍대표"/> <span class="stamp">서명/인</span></div>
+    <div class="sign-bottom-wrap" style="margin-top:auto; break-inside:avoid; page-break-inside:avoid">
+      <div class="sign-area" style="margin-top:0">
+        <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
+        <div class="sign-right">
+          <div class="sign-row"><span class="s-lbl">회사명</span><input class="s-in c-company" placeholder="(주)회사명"/></div>
+          <div class="sign-row sr-ceo-row"><span class="s-lbl">대표자</span><input class="s-in c-ceo" placeholder="홍대표"/> <span class="stamp">서명/인</span></div>
+        </div>
       </div>
-    </div>
-    <div class="receipt"><div class="receipt-cut">— 수 령 확 인 서 (절취선) —</div>
-    <div class="receipt-body">본인은 위 경고장을 <input class="ii" placeholder="2025. 01. 10." style="width:90pt"/> 수령하였음을 확인합니다.<br>수령인: <input class="ii" placeholder="홍길동" style="width:90pt"/> &nbsp;<span class="stamp">서명/인</span></div></div>`
+      <div class="receipt"><div class="receipt-cut">— 수 령 확 인 서 (절취선) —</div>
+      <div class="receipt-body">본인은 위 경고장을 <input class="ii" placeholder="2025. 01. 10." style="width:90pt"/> 수령하였음을 확인합니다.<br>수령인: <input class="ii" placeholder="홍길동" style="width:90pt"/> &nbsp;<span class="stamp">서명/인</span></div></div>
+    </div>`
 },
 
 
