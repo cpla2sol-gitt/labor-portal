@@ -7,7 +7,7 @@ annual: {
   title: '미사용 연차유급휴가일수 통지서',
   sub: '근로기준법 제61조',
   hasApproval: true,
-  notice: '🔔 이 서식은 [1차 촉구용]입니다 — 근로기준법 제61조\n\n▶ 1년 이상 근로자 (제61조 제1항)\n  • 1차 촉구: 연차 소멸 6개월 전까지\n    → 미사용 일수 서면 통지 + 10일 내 사용시기 지정 촉구 (이 서식)\n  • 2차 지정: 연차 소멸 2개월 전까지\n    → 근로자 미지정분에 대해 회사가 사용시기 서면 지정 (별도 서식 필요)\n  • 효과: 위 2단계 완료 시 미사용 연차수당 지급 의무 면제\n\n▶ 1년 미만 근로자 (제61조 제2항, 2020년 개정)\n  • 1차 촉구: 최초 연차 발생일로부터 3개월 이내\n    → 미사용 일수 서면 통지 + 5일 내 사용시기 지정 촉구 (이 서식)\n  • 2차 지정: 연차 소멸 1개월 전까지\n    → 근로자 미지정분에 대해 회사가 사용시기 서면 지정 (별도 서식 필요)\n  • 효과: 위 2단계 완료 시 미사용 연차수당 지급 의무 면제\n\n⚠️ 주의: 2단계(회사 지정) 서면 없이 1단계만으로는 면제 효과 없음',
+  notice: '🔔 이 서식은 [1차 촉구용]입니다 — 근로기준법 제61조\n\n▶ 1년 이상 근로자 (제61조 제1항)\n  • 1차 촉구: 연차 소멸 6개월 전까지\n    → 미사용 일수 서면 통지 + 10일 내 사용시기 지정 촉구\n  • 2차 지정: 연차 소멸 2개월 전까지\n    → 근로자 미지정분에 대해 회사가 사용시기 서면 지정 (별도 서식 필요)\n  • 효과: 위 2단계 완료 시 미사용 연차수당 지급 의무 면제\n\n▶ 1년 미만 근로자 (제61조 제2항)\n  • 1차 촉구: 최초 연차 발생일로부터 3개월 이내\n    → 미사용 일수 서면 통지 + 5일 내 사용시기 지정 촉구\n  • 2차 지정: 연차 소멸 1개월 전까지\n    → 근로자 미지정분에 대해 회사가 사용시기 서면 지정 (별도 서식 필요)\n  • 효과: 위 2단계 완료 시 미사용 연차수당 지급 의무 면제\n\n⚠️ 주의: 2단계(회사 지정) 서면 없이 1단계만으로는 면제 효과 없음',
   html: () => `
     <div class="doc-title">미사용 연차유급휴가일수 통지서</div>
     <table class="ft" style="margin-bottom:10pt">
@@ -16,7 +16,7 @@ annual: {
       <tr><td class="lbl">직 위</td><td class="val"><input class="di" placeholder="대리"/></td>
           <td class="lbl">주민번호</td><td class="val"><input class="di" placeholder="900101-*******"/></td></tr>
       <tr><td class="lbl">입사일자</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td>
-          <td class="lbl">연차 소멸예정일</td><td class="val"><input class="di" placeholder="2025. 12. 31."/></td></tr>
+          <td class="lbl">연차&#10;소멸 예정일</td><td class="val"><input class="di" placeholder="2025. 12. 31."/></td></tr>
       <tr><td class="lbl">발생 기준</td><td class="val" colspan="3">
         <select class="di"><option value="">— 선택 —</option><option>입사일 기준</option><option>회계연도 기준 (1월 1일)</option></select>
       </td></tr>
