@@ -32,7 +32,7 @@ annual: {
       <tr><td class="lbl">입사일자</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td>
           <td class="lbl" id="annual-period-label">연차 소멸<br>예정일</td><td class="val"><input class="di" placeholder="2025. 12. 31."/></td></tr>
       <tr><td class="lbl">발생 기준</td><td class="val" colspan="3">
-        <select class="di"><option value="">— 선택 —</option><option>입사일 기준</option><option>회계연도 기준 (1월 1일)</option></select>
+        <select class="di"><option value="">— 선택 —</option><option>입사일 기준</option><option>회계연도 기준</option></select>
       </td></tr>
     </table>
     <table class="ft" style="table-layout:fixed;width:100%;margin-bottom:10pt;border-top:none">
