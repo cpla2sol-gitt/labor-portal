@@ -93,14 +93,19 @@ severance: {
       <tr><td class="lbl">정산 기간</td><td class="val" colspan="3"><input class="di" placeholder="2020. 03. 02. ~ 2025. 03. 01."/></td></tr>
       <tr><td class="lbl">정산 금액</td><td class="val" colspan="3"><input class="di" placeholder="금 000,000원 (₩ 0,000,000)"/></td></tr>
       <tr><td class="lbl">정산 사유</td><td class="val" colspan="3">
-        <select class="di" style="margin-bottom:3pt"><option value="">— 법정 사유 선택 —</option>
-          <option>무주택자 주택 구입</option><option>전세금·보증금 부담</option>
-          <option>본인·가족 6개월 이상 요양</option><option>파산선고</option>
-          <option>개인회생절차 개시 결정</option><option>임금피크제 실시</option></select>
+        <select class="di no-print" style="margin-bottom:3pt"><option value="">— 법정 사유 선택 —</option>
+          <option>무주택자 본인 명의 주택 구입</option>
+          <option>무주택자 전세금·보증금 부담</option>
+          <option>본인·배우자·부양가족 요양</option>
+          <option>본인 파산선고</option>
+          <option>본인 개인회생절차 개시 결정</option>
+          <option>임금피크제 실시로 임금 감소</option>
+          <option>근로시간 단축으로 임금·퇴직금 감소</option>
+          <option>사업주 휴업·재난으로 임금 감소</option></select>
         <textarea class="di" placeholder="상세 사유 기재" style="min-height:100pt"></textarea>
       </td></tr>
     </table>
-    <div class="body-text" style="text-align:center;font-size:11pt">근로자퇴직급여보장법에 의거 위와 같이 퇴직금 중간정산을 신청하오니 수락하여 주시기 바랍니다.</div>
+    <div class="body-text" style="text-align:center;font-size:11.5pt">근로자퇴직급여보장법에 의거 위와 같이 퇴직금 중간정산을 신청하오니 수락하여 주시기 바랍니다.</div>
     <div class="sign-area">
       <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
       <div class="sign-right">
