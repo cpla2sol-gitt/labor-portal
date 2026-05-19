@@ -377,7 +377,7 @@ header {
 /* 결재단계 토글 그룹 */
 .ap-select-wrap {
   display: flex; align-items: center; gap: 6px;
-  font-size: 12px; color: var(--muted);
+  font-size: 11px; color: var(--muted);
 }
 .ap-toggle-group {
   display: flex;
