@@ -17,8 +17,8 @@ Object.assign(window.FORMS, {
     <div class="sec-label">■ 교육 의무 구분</div>
     <div class="block-box" style="font-size:8.5pt;line-height:1.9">
       1. 남녀고용평등과 일·가정 양립 지원에 관한 법률 제13조제1항 (직장 내 성희롱 예방교육 연 1회 이상 실시)<br>
-      2. 직장 내 성희롱에 관한 법령 &nbsp; 3. 직장 내 성희롱 발생 시 처리절차 및 조치기준<br>
-      4. 직장 내 성희롱 피해근로자의 고충사항 및 구제절차 &nbsp; 5. 그 밖에 예방에 필요한 사항
+      2. 직장 내 성희롱에 관한 법령 &nbsp; 3. 해당 사업장의 직장 내 성희롱 발생 시 처리절차 및 조치기준<br>
+      4. 해당 사업장의 직장 내 성희롱 피해근로자의 고충상담 및 구제절차 &nbsp; 5. 그 밖에 예방에 필요한 사항
     </div>
 
     <table class="ft" style="margin:8pt 0">
