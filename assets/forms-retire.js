@@ -18,7 +18,7 @@ resign: {
       <tr><td class="lbl">입사일자</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td>
           <td class="lbl">연 락 처</td><td class="val"><input class="di" placeholder="010-0000-0000"/></td></tr>
       <tr><td class="lbl">사직 사유</td><td class="val" colspan="3">
-        <select class="di" style="margin-bottom:3pt"><option value="">— 사유 선택 —</option><option>개인 일신상의 사유</option><option>가사</option><option>전직</option><option>진학</option><option>결혼</option><option>권고사직</option><option>기타</option></select>
+        <select class="di no-print" style="margin-bottom:3pt"><option value="">— 사유 선택 —</option><option>개인 일신상의 사유</option><option>가사</option><option>전직</option><option>진학</option><option>결혼</option><option>권고사직</option><option>기타</option></select>
         <input class="di" placeholder="상세 사유"/>
       </td></tr>
       <tr><td class="lbl">사직 후 주소</td><td class="val" colspan="3"><input class="di" placeholder="서울특별시 강남구 테헤란로 000"/></td></tr>
@@ -204,7 +204,7 @@ retired: {
       <tr><td class="lbl">입사일</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td>
           <td class="lbl">퇴직일</td><td class="val"><input class="di" placeholder="2025. 06. 30."/></td></tr>
       <tr><td class="lbl">퇴직사유</td><td class="val" colspan="3">
-        <select class="di"><option value="">— 선택 —</option><option>자진퇴사</option><option>계약기간 만료</option><option>권고사직</option><option>해고</option><option>정년퇴직</option></select>
+        <select class="di no-print"><option value="">— 선택 —</option><option>자진퇴사</option><option>계약기간 만료</option><option>권고사직</option><option>해고</option><option>정년퇴직</option></select>
       </td></tr>
     </table>
     <div class="body-text" style="text-align:center">위 사실을 확인합니다.</div>
