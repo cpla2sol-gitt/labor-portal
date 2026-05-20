@@ -93,7 +93,7 @@ Object.assign(window.FORMS, {
     <div style="font-size:8.5pt;color:var(--muted);margin-bottom:6pt">※ 교육을 받은 각 개인별로 서명 또는 날인하시기 바랍니다.</div>
     <table class="ft">
       <thead>
-        <tr><th style="width:27pt">연번</th><th>부 서 명</th><th>직 위</th><th>성 명</th><th style="width:70pt">서명날인</th></tr>
+        <tr><th style="width:30pt">연번</th><th>부 서 명</th><th>직 위</th><th>성 명</th><th style="width:70pt">서명날인</th></tr>
       </thead>
       <tbody>
         ${Array.from({length: 20}, (_, i) => `
@@ -205,7 +205,7 @@ Object.assign(window.FORMS, {
     <div style="font-size:8.5pt;color:var(--muted);margin-bottom:6pt">※ 교육을 받은 각 개인별로 서명 또는 날인하시기 바랍니다.</div>
     <table class="ft">
       <thead>
-        <tr><th style="width:27pt">연번</th><th>부 서 명</th><th>직 위</th><th>성 명</th><th style="width:70pt">서명날인</th></tr>
+        <tr><th style="width:30pt">연번</th><th>부 서 명</th><th>직 위</th><th>성 명</th><th style="width:70pt">서명날인</th></tr>
       </thead>
       <tbody>
         ${Array.from({length: 20}, (_, i) => `
