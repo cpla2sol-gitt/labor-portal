@@ -13,14 +13,14 @@ trip: {
     <table class="ft">
       <tr><td class="lbl">성 명</td><td class="val"><input class="di" placeholder="홍길동"/></td>
           <td class="lbl">소 속</td><td class="val"><input class="di" placeholder="영업팀"/></td></tr>
-      <tr><td class="lbl">출장기간</td><td class="val" colspan="3"><input class="di" placeholder="2025. 01. 10. ~ 2025. 01. 12.  ( 1박 2일 )"/></td></tr>
-      <tr><td class="lbl">출장목적</td><td class="val" colspan="3"><input class="di" placeholder="고객사 미팅 및 계약 협의"/></td></tr>
-      <tr><td class="lbl">출장장소</td><td class="val" colspan="3"><input class="di" placeholder="부산광역시 해운대구 ○○ 빌딩"/></td></tr>
-      <tr><td class="lbl">주요일정</td><td class="val" colspan="3"><textarea class="di" placeholder="1월 10일 - 이동 및 고객사 미팅&#10;1월 11일 - 현장 점검 및 계약 협의&#10;1월 12일 - 귀사" style="min-height:44pt"></textarea></td></tr>
+      <tr><td class="lbl">출장 기간</td><td class="val" colspan="3"><input class="di" placeholder="2025. 01. 10. ~ 2025. 01. 12.  ( 1박 2일 )"/></td></tr>
+      <tr><td class="lbl">출장 목적</td><td class="val" colspan="3"><input class="di" placeholder="고객사 미팅 및 계약 협의"/></td></tr>
+      <tr><td class="lbl">출장 장소</td><td class="val" colspan="3"><input class="di" placeholder="부산광역시 해운대구 ○○ 빌딩"/></td></tr>
+      <tr><td class="lbl">주요 일정</td><td class="val" colspan="3"><textarea class="di" placeholder="1월 10일 - 이동 및 고객사 미팅&#10;1월 11일 - 현장 점검 및 계약 협의&#10;1월 12일 - 귀사" style="min-height:200pt"></textarea></td></tr>
       <tr>
-        <td class="lbl">출장여비</td>
+        <td class="lbl">출장 여비</td>
         <td class="val" colspan="3">
-          <table style="width:100%;border-collapse:collapse;font-size:8.5pt">
+          <table style="width:100%;border-collapse:collapse;font-size:10.5pt">
             <tr>
               <td style="border:1px solid var(--border-dk);text-align:center;padding:3pt;background:#f0ece5;width:20%">교통비</td>
               <td style="border:1px solid var(--border-dk);text-align:center;padding:3pt;background:#f0ece5;width:20%">숙박료</td>
