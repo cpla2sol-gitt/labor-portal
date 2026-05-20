@@ -1133,5 +1133,5 @@ textarea.di {
 }
 
 /* select 인쇄용 값 표시 */
-.select-print-val { display: none; padding: 3.5pt 5pt; }
+.select-print-val { display: none; padding: 5pt 5pt; }
 @media print { .select-print-val { display: inline; } }
