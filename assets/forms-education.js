@@ -6,7 +6,7 @@ Object.assign(window.FORMS, {
   title: '성희롱 예방 교육일지',
   sub: '남녀고용평등법 제13조 — 연 1회 이상 의무 실시',
   hasApproval: false,
-  notice: '※ 남녀고용평등법 제13조에 따라 사업주는 직장 내 성희롱 예방교육을 매년 1회 이상 실시해야 합니다.\n※ 위반 시 500만원 이하의 과태료가 부과됩니다. 교육 후 3년간 보존 의무.',
+  notice: '※ 남녀고용평등법 제13조에 따라 사업주는 직장 내 성희롱 예방교육을 매년 1회 이상 실시해야 합니다.\n※ 위반 시 500만원 이하의 과태료가 부과됩니다. 교육 자료 3년간 보존 의무.',
   html: () => `
     <div class="doc-title">직장 내 성희롱 예방 교육일지</div>
     <table class="ft" style="margin-bottom:10pt">
@@ -16,15 +16,16 @@ Object.assign(window.FORMS, {
 
     <div class="sec-label">■ 교육 의무 구분</div>
     <div class="block-box" style="font-size:8.5pt;line-height:1.9">
-      1. 남녀고용평등과 일·가정 양립 지원에 관한 법률 제13조제1항 (직장 내 성희롱 예방교육 연 1회 이상 실시)<br>
-      2. 직장 내 성희롱에 관한 법령 &nbsp; 3. 해당 사업장의 직장 내 성희롱 발생 시 처리절차 및 조치기준<br>
-      4. 해당 사업장의 직장 내 성희롱 피해근로자의 고충상담 및 구제절차 &nbsp; 5. 그 밖에 예방에 필요한 사항
+      1. 직장 내 성희롱에 관한 법령<br>
+      2. 해당 사업장의 직장 내 성희롱 발생 시 처리절차 및 조치기준<br>
+      3. 해당 사업장의 직장 내 성희롱 피해근로자의 고충상담 및 구제절차<br>
+      4. 그 밖에 성희롱 예방에 필요한 사항
     </div>
 
     <table class="ft" style="margin:8pt 0">
       <tr><td class="lbl">교육과목</td><td class="val"><input class="di" placeholder="직장 내 성희롱 예방교육"/></td>
           <td class="lbl">교육방법</td><td class="val">
-            <select class="di"><option value="">— 선택 —</option><option>집합교육</option><option>온라인 교육</option><option>영상교육</option><option>강의식</option></select>
+            <select class="di"><option value="">— 선택 —</option><option>집합 교육</option><option>온라인 교육</option><option>자체 교육</option><option>외부기관 위탁</option></select>
           </td></tr>
       <tr><td class="lbl">교육일시</td><td class="val"><input class="di" placeholder="2025. 01. 10.  오후 2:00 ~ 3:00 (60분)"/></td>
           <td class="lbl">교육장소</td><td class="val"><input class="di" placeholder="본사 대회의실 / 온라인"/></td></tr>
@@ -92,7 +93,7 @@ Object.assign(window.FORMS, {
     <div style="font-size:8.5pt;color:var(--muted);margin-bottom:6pt">※ 교육을 받은 각 개인별로 서명 또는 날인하시기 바랍니다.</div>
     <table class="ft">
       <thead>
-        <tr><th style="width:24pt">연번</th><th>부 서 명</th><th>직 위</th><th>성 명</th><th style="width:70pt">서명날인</th></tr>
+        <tr><th style="width:25pt">연번</th><th>부 서 명</th><th>직 위</th><th>성 명</th><th style="width:70pt">서명날인</th></tr>
       </thead>
       <tbody>
         ${Array.from({length: 20}, (_, i) => `
@@ -117,7 +118,7 @@ Object.assign(window.FORMS, {
   title: '장애인 인식개선 교육일지',
   sub: '장애인고용촉진법 제5조의2 — 연 1회 이상 의무 실시',
   hasApproval: false,
-  notice: '※ 장애인고용촉진 및 직업재활법 제5조의2에 따라 사업주는 장애인 인식개선 교육을 매년 1회 이상 실시해야 합니다.\n※ 위반 시 300만원 이하의 과태료가 부과됩니다. 3년간 보존 의무.',
+  notice: '※ 장애인고용촉진 및 직업재활법 제5조의2에 따라 사업주는 장애인 인식개선 교육을 매년 1회 이상 실시해야 합니다.\n※ 위반 시 300만원 이하의 과태료가 부과됩니다. 교육 자료 3년간 보존 의무.',
   html: () => `
     <div class="doc-title">장애인 인식개선 교육일지</div>
     <table class="ft" style="margin-bottom:10pt">
@@ -136,7 +137,7 @@ Object.assign(window.FORMS, {
     <table class="ft" style="margin:8pt 0">
       <tr><td class="lbl">교육과목</td><td class="val"><input class="di" placeholder="장애인 인식개선 교육"/></td>
           <td class="lbl">교육방법</td><td class="val">
-            <select class="di"><option value="">— 선택 —</option><option>집합교육</option><option>온라인 교육</option><option>영상교육</option><option>강의식</option></select>
+            <select class="di"><option value="">— 선택 —</option><option>집합 교육</option><option>온라인 교육</option><option>자체 교육</option><option>외부기관 위탁</option></select>
           </td></tr>
       <tr><td class="lbl">교육일시</td><td class="val"><input class="di" placeholder="2025. 01. 10.  오후 3:00 ~ 4:00 (60분)"/></td>
           <td class="lbl">교육장소</td><td class="val"><input class="di" placeholder="본사 대회의실 / 온라인"/></td></tr>
