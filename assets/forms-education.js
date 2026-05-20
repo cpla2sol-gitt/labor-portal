@@ -128,7 +128,7 @@ Object.assign(window.FORMS, {
 
     <div class="sec-label">■ 교육 의무 구분</div>
     <div class="block-box" style="font-size:8.5pt;line-height:1.9">
-      1. 장애의 정의 및 장애유형에 대한 이해<br>
+      1. 장애에 대한 이해와 장애가 가지는 차이에 대한 존중<br>
       2. 직장 내 장애인의 인권과 장애인에 대한 차별금지 및 정당한 편의제공<br>
       3. 장애인고용촉진 및 직업재활과 관련된 법과 제도<br>
       4. 그 밖에 직장 내 장애인 인식개선에 필요한 사항
