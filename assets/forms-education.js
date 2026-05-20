@@ -23,13 +23,13 @@ Object.assign(window.FORMS, {
     </div>
 
     <table class="ft" style="margin:8pt 0">
-      <tr><td class="lbl">교육과목</td><td class="val"><input class="di" placeholder="직장 내 성희롱 예방교육"/></td>
-          <td class="lbl">교육방법</td><td class="val">
+      <tr><td class="lbl">교육 과목</td><td class="val"><input class="di" placeholder="직장 내 성희롱 예방교육"/></td>
+          <td class="lbl">교육 방법</td><td class="val">
             <select class="di"><option value="">— 선택 —</option><option>집합 교육</option><option>온라인 교육</option><option>자체 교육</option><option>외부기관 위탁</option></select>
           </td></tr>
-      <tr><td class="lbl">교육일시</td><td class="val"><input class="di" placeholder="2025. 01. 10.  오후 2:00 ~ 3:00 (60분)"/></td>
-          <td class="lbl">교육장소</td><td class="val"><input class="di" placeholder="본사 대회의실 / 온라인"/></td></tr>
-      <tr><td class="lbl">교육내용</td><td class="val" colspan="3"><input class="di" placeholder="성희롱 예방교육 일반 (고용노동부 교재 활용)"/></td></tr>
+      <tr><td class="lbl">교육 일시</td><td class="val"><input class="di" placeholder="2025. 01. 10.  오후 2:00 ~ 3:00 (60분)"/></td>
+          <td class="lbl">교육 장소</td><td class="val"><input class="di" placeholder="본사 대회의실 / 온라인"/></td></tr>
+      <tr><td class="lbl">교육 내용</td><td class="val" colspan="3"><input class="di" placeholder="성희롱 예방교육 일반 (고용노동부 교재 활용)"/></td></tr>
     </table>
 
     <table class="ft" style="margin-bottom:10pt">
@@ -63,10 +63,10 @@ Object.assign(window.FORMS, {
       </tbody>
     </table>
 
-    <div style="font-size:9pt;margin-bottom:6pt">
-      참석자: 교육대상자 <input class="ii" placeholder="10" style="width:24pt"/>명 &nbsp;
-      (참석: <input class="ii" placeholder="10" style="width:24pt"/>명 &nbsp;
-      휴무: <input class="ii" placeholder="0" style="width:24pt"/>명)
+    <div style="font-size:10.5pt;margin-bottom:6pt">
+      참석자: 교육대상자 <input class="ii" placeholder="10" style="width:30pt"/>명 &nbsp;
+      (참석: <input class="ii" placeholder="10" style="width:30pt"/>명 &nbsp;
+      휴무: <input class="ii" placeholder="0" style="width:30pt"/>명)
     </div>
     <div class="sec-label">특기사항</div>
     <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:36pt;font-size:9pt"></textarea>
@@ -93,7 +93,7 @@ Object.assign(window.FORMS, {
     <div style="font-size:8.5pt;color:var(--muted);margin-bottom:6pt">※ 교육을 받은 각 개인별로 서명 또는 날인하시기 바랍니다.</div>
     <table class="ft">
       <thead>
-        <tr><th style="width:25pt">연번</th><th>부 서 명</th><th>직 위</th><th>성 명</th><th style="width:70pt">서명날인</th></tr>
+        <tr><th style="width:27pt">연번</th><th>부 서 명</th><th>직 위</th><th>성 명</th><th style="width:70pt">서명날인</th></tr>
       </thead>
       <tbody>
         ${Array.from({length: 20}, (_, i) => `
@@ -135,13 +135,13 @@ Object.assign(window.FORMS, {
     </div>
 
     <table class="ft" style="margin:8pt 0">
-      <tr><td class="lbl">교육과목</td><td class="val"><input class="di" placeholder="장애인 인식개선 교육"/></td>
-          <td class="lbl">교육방법</td><td class="val">
+      <tr><td class="lbl">교육 과목</td><td class="val"><input class="di" placeholder="장애인 인식개선 교육"/></td>
+          <td class="lbl">교육 방법</td><td class="val">
             <select class="di"><option value="">— 선택 —</option><option>집합 교육</option><option>온라인 교육</option><option>자체 교육</option><option>외부기관 위탁</option></select>
           </td></tr>
-      <tr><td class="lbl">교육일시</td><td class="val"><input class="di" placeholder="2025. 01. 10.  오후 3:00 ~ 4:00 (60분)"/></td>
-          <td class="lbl">교육장소</td><td class="val"><input class="di" placeholder="본사 대회의실 / 온라인"/></td></tr>
-      <tr><td class="lbl">교육내용</td><td class="val" colspan="3"><input class="di" placeholder="장애인 인식개선 교육 일반 (한국장애인고용공단 교재 활용)"/></td></tr>
+      <tr><td class="lbl">교육 일시</td><td class="val"><input class="di" placeholder="2025. 01. 10.  오후 3:00 ~ 4:00 (60분)"/></td>
+          <td class="lbl">교육 장소</td><td class="val"><input class="di" placeholder="본사 대회의실 / 온라인"/></td></tr>
+      <tr><td class="lbl">교육 내용</td><td class="val" colspan="3"><input class="di" placeholder="장애인 인식개선 교육 일반 (한국장애인고용공단 교재 활용)"/></td></tr>
     </table>
 
     <table class="ft" style="margin-bottom:10pt">
@@ -175,10 +175,10 @@ Object.assign(window.FORMS, {
       </tbody>
     </table>
 
-    <div style="font-size:9pt;margin-bottom:6pt">
-      참석자: 교육대상자 <input class="ii" placeholder="10" style="width:24pt"/>명 &nbsp;
-      (참석: <input class="ii" placeholder="10" style="width:24pt"/>명 &nbsp;
-      휴무: <input class="ii" placeholder="0" style="width:24pt"/>명)
+    <div style="font-size:10.5pt;margin-bottom:6pt">
+      참석자: 교육대상자 <input class="ii" placeholder="10" style="width:30pt"/>명 &nbsp;
+      (참석: <input class="ii" placeholder="10" style="width:30pt"/>명 &nbsp;
+      휴무: <input class="ii" placeholder="0" style="width:30pt"/>명)
     </div>
     <div class="sec-label">특기사항</div>
     <textarea class="di" style="border:1px solid var(--border-dk);border-radius:2px;width:100%;padding:5pt 7pt;min-height:36pt;font-size:9pt"></textarea>
@@ -205,7 +205,7 @@ Object.assign(window.FORMS, {
     <div style="font-size:8.5pt;color:var(--muted);margin-bottom:6pt">※ 교육을 받은 각 개인별로 서명 또는 날인하시기 바랍니다.</div>
     <table class="ft">
       <thead>
-        <tr><th style="width:24pt">연번</th><th>부 서 명</th><th>직 위</th><th>성 명</th><th style="width:70pt">서명날인</th></tr>
+        <tr><th style="width:27pt">연번</th><th>부 서 명</th><th>직 위</th><th>성 명</th><th style="width:70pt">서명날인</th></tr>
       </thead>
       <tbody>
         ${Array.from({length: 20}, (_, i) => `
