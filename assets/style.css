@@ -1131,3 +1131,7 @@ textarea.di {
   #fe-bar, .btn-edit-toggle { display: none !important; }
   .no-print { display: none !important; }
 }
+
+/* select 인쇄용 값 표시 */
+.select-print-val { display: none; }
+@media print { .select-print-val { display: inline; } }
