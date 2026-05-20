@@ -18,7 +18,7 @@ resign: {
       <tr><td class="lbl">입사일자</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td>
           <td class="lbl">연 락 처</td><td class="val"><input class="di" placeholder="010-0000-0000"/></td></tr>
       <tr><td class="lbl">사직 사유</td><td class="val" colspan="3">
-        <select class="di no-print" style="margin-bottom:3pt"><option value="">— 사유 선택 —</option><option>개인 일신상의 사유</option><option>가사</option><option>전직</option><option>진학</option><option>결혼</option><option>권고사직</option><option>기타</option></select>
+        <select class="di no-print" style="margin-bottom:3pt" onchange="this.nextElementSibling.textContent=this.value"><option value="">— 사유 선택 —</option><option>개인 일신상의 사유</option><option>가사</option><option>전직</option><option>진학</option><option>결혼</option><option>권고사직</option><option>기타</option></select><span class="select-print-val"></span>
         <input class="di" placeholder="상세 사유"/>
       </td></tr>
       <tr><td class="lbl">사직 후 주소</td><td class="val" colspan="3"><input class="di" placeholder="서울특별시 강남구 테헤란로 000"/></td></tr>
@@ -93,7 +93,7 @@ severance: {
       <tr><td class="lbl">정산 기간</td><td class="val" colspan="3"><input class="di" placeholder="2020. 03. 02. ~ 2025. 03. 01."/></td></tr>
       <tr><td class="lbl">정산 금액</td><td class="val" colspan="3"><input class="di" placeholder="금 000,000원 (₩ 0,000,000)"/></td></tr>
       <tr><td class="lbl">정산 사유</td><td class="val" colspan="3">
-        <select class="di no-print" style="margin-bottom:3pt"><option value="">— 법정 사유 선택 —</option>
+        <select class="di no-print" style="margin-bottom:3pt" onchange="this.nextElementSibling.textContent=this.value"><option value="">— 법정 사유 선택 —</option>
           <option>무주택자 본인 명의 주택 구입</option>
           <option>무주택자 전세금·보증금 부담</option>
           <option>본인·배우자·부양가족 요양</option>
@@ -101,7 +101,7 @@ severance: {
           <option>본인 개인회생절차 개시 결정</option>
           <option>임금피크제 실시로 임금 감소</option>
           <option>근로시간 단축으로 임금·퇴직금 감소</option>
-          <option>사업주 휴업·재난으로 임금 감소</option></select>
+          <option>사업주 휴업·재난으로 임금 감소</option></select><span class="select-print-val"></span>
         <textarea class="di" placeholder="상세 사유 기재" style="min-height:100pt"></textarea>
       </td></tr>
     </table>
@@ -204,7 +204,7 @@ retired: {
       <tr><td class="lbl">입사일</td><td class="val"><input class="di" placeholder="2020. 03. 02."/></td>
           <td class="lbl">퇴직일</td><td class="val"><input class="di" placeholder="2025. 06. 30."/></td></tr>
       <tr><td class="lbl">퇴직사유</td><td class="val" colspan="3">
-        <select class="di no-print"><option value="">— 선택 —</option><option>자진퇴사</option><option>계약기간 만료</option><option>권고사직</option><option>해고</option><option>정년퇴직</option></select>
+        <select class="di no-print" onchange="this.nextElementSibling.textContent=this.value"><option value="">— 선택 —</option><option>자진퇴사</option><option>계약기간 만료</option><option>권고사직</option><option>해고</option><option>정년퇴직</option></select><span class="select-print-val"></span>
       </td></tr>
     </table>
     <div class="body-text" style="text-align:center">위 사실을 확인합니다.</div>
