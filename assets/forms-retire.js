@@ -26,11 +26,13 @@ resign: {
           <td class="lbl">e-mail</td><td class="val"><input class="di" placeholder="hong@email.com"/></td></tr>
     </table>
     <div class="block-box" style="font-size:11pt;margin-top:8pt">
-      본인은 본인의 자유의사에 따라 위와 같은 사유로 사직하고자 하오니 승인하여 주시기 바랍니다.<br><br>
+      상기 본인은 본인의 자유의사에 따라 위와 같은 사유로 사직하고자 하오니 승인하여 주시기 바랍니다.<br><br>
       <strong>— 서약사항 —</strong><br>
-      1. 재직 기간 중 가지고 있던 영업·고객 관련 비밀이 기록된 일체의 자료를 반납하겠으며,
+      1. 본인은 재직 기간 중 가지고 있던 영업·고객 관련 비밀이 기록된 일체의 자료를 반납하겠으며,
       업무상 취득한 비밀을 타인에게 누설하지 않겠습니다.<br>
-      2. 물품 반납, 업무 인수인계 등 회사 관련 제반 사항을 퇴직일 전일까지 처리하겠습니다.
+      2. 본인은 물품 반납, 업무 인수인계 등 회사 관련 제반 사항을 퇴직일 전일까지 처리하겠습니다.<br>
+      3. 본인은 퇴직 후 미지급 임금이 회사 정기 지급일에 지급됨에 따라 퇴직일로부터 14일을 초과할 수 있음에 동의합니다.<br>
+      4. 본인은 사직과 관련하여 회사에 대해 민·형사상노동행정상 일체의 이의를 제기하지 않을 것을 확약합니다.
     </div>
     <div class="sign-area">
       <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
@@ -184,6 +186,7 @@ handover: {
       <div class="sign-date"><input class="ii" placeholder="20" style="width:30pt"/>년 <input class="ii" placeholder="01" style="width:22pt"/>월 <input class="ii" placeholder="01" style="width:22pt"/>일</div>
       <div class="sign-right">
         <div class="sign-row"><span class="s-lbl">회사명</span><input class="s-in c-company" placeholder="(주)회사명"/></div>
+        <div class="sign-row sr-ceo-row"><span class="s-lbl">대표자</span><input class="s-in c-ceo" placeholder="홍대표"/> <span class="c-suffix">귀하</span></div>
       </div>
       </div>
     </div>`
