@@ -25,7 +25,7 @@ resign: {
       <tr><td class="lbl">긴급 연락처</td><td class="val"><input class="di" placeholder="010-0000-0000"/></td>
           <td class="lbl">e-mail</td><td class="val"><input class="di" placeholder="hong@email.com"/></td></tr>
     </table>
-    <div class="block-box" style="font-size:11pt;margin-top:8pt">
+    <div class="block-box" style="font-size:10.5pt;margin-top:8pt">
       상기 본인은 본인의 자유의사에 따라 위와 같은 사유로 사직하고자 하오니 승인하여 주시기 바랍니다.<br><br>
       <strong>— 서약사항 —</strong><br>
       1. 본인은 재직 기간 중 가지고 있던 영업·고객 관련 비밀이 기록된 일체의 자료를 반납하겠으며,
