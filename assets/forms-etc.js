@@ -59,7 +59,7 @@ order: {
     <div class="doc-title">인 사 발 령 서</div>
     <table class="ft" style="margin-bottom:10pt">
       <tr><td class="lbl">수 신</td><td class="val"><input class="di" placeholder="홍길동 귀하"/></td>
-          <td class="lbl">발 신</td><td class="val"><input class="di c-ceo" placeholder="대표이사 홍대표"/></td></tr>
+          <td class="lbl">발 신</td><td class="val"><input class="di c-ceo" placeholder="대표자 홍대표"/></td></tr>
       <tr><td class="lbl">제 목</td><td class="val" colspan="3"><input class="di" placeholder="인사발령의 건"/></td></tr>
     </table>
     <div class="sec-label">■ 발령 내용</div>
